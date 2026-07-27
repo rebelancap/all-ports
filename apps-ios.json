@@ -50,27 +50,6 @@
       ]
     },
     {
-      "name": "Starship",
-      "bundleIdentifier": "com.rebelancap.starship",
-      "developerName": "rebelancap",
-      "subtitle": "Star Fox 64 for iPhone & Vision Pro",
-      "localizedDescription": "The Starship port of Star Fox 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Star Fox 64 ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/starship.png",
-      "tintColor": "#2E5C8A",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "date": "2026-07-26T17:04:12Z",
-          "localizedDescription": "First public release of Starship (Star Fox 64) for iPhone and Apple Vision Pro — a native Metal port. The full campaign with saves and branching routes, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Star Fox 64 ROM; no game content included.",
-          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.0/starship-1.0.0-iOS.ipa",
-          "size": 3758685,
-          "minOSVersion": "15.0"
-        }
-      ]
-    },
-    {
       "name": "SpaghettiKart",
       "bundleIdentifier": "com.rebelancap.spaghettikart",
       "developerName": "rebelancap",
@@ -108,6 +87,27 @@
           "localizedDescription": "First public release of Ghostship for iPhone and Apple Vision Pro — a native Metal N64 port. The full game with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own ROM; no game content included.",
           "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.0/ghostship-1.0.0-iOS.ipa",
           "size": 5542585,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Starship",
+      "bundleIdentifier": "com.rebelancap.starship",
+      "developerName": "rebelancap",
+      "subtitle": "Star Fox 64 for iPhone & Vision Pro",
+      "localizedDescription": "The Starship port of Star Fox 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Star Fox 64 ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/starship.png",
+      "tintColor": "#2E5C8A",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T17:04:12Z",
+          "localizedDescription": "First public release of Starship (Star Fox 64) for iPhone and Apple Vision Pro — a native Metal port. The full campaign with saves and branching routes, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Star Fox 64 ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.0/starship-1.0.0-iOS.ipa",
+          "size": 3758685,
           "minOSVersion": "15.0"
         }
       ]
