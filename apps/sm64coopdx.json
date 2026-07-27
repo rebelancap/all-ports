@@ -1,6 +1,6 @@
 {
   "name": "Super Mario 64 Co-op Deluxe",
-  "bundleIdentifier": "com.sm64coopdx.ios",
+  "bundleIdentifier": "com.rebelancap.sm64coopdx",
   "repo": "rebelancap/sm64coopdx-ios",
   "platforms": [
     "visionos"

@@ -201,7 +201,7 @@
     },
     {
       "name": "Super Mario 64 Co-op Deluxe",
-      "bundleIdentifier": "com.sm64coopdx.ios",
+      "bundleIdentifier": "com.rebelancap.sm64coopdx",
       "developerName": "rebelancap",
       "subtitle": "Super Mario 64 Co-op Deluxe for Apple Vision Pro",
       "localizedDescription": "Super Mario 64 Co-op Deluxe on Apple Vision Pro: the full game rendered natively on Metal, online co-op over CoopNet, and a world-locked stereoscopic 3D mode with live-tunable screen size, distance, depth, and focus. Ships with no game content; you supply your own Super Mario 64 (US) ROM.",
@@ -215,15 +215,7 @@
           "date": "2026-07-23T18:15:51Z",
           "localizedDescription": "Sharper, deeper 3D — this release is all about the world-locked stereoscopic 3D mode.\n\n## What's new since 1.0.0\n- **Foveated rendering** — the in-room 3D panel now renders eye-tracked variable-density, so it's as crisp as the flat 2D window and sharpest where you're looking. The softness the 3D panel used to have is gone, at no frame-rate cost.\n- **Deeper stereo depth** — the Stereo Depth slider reaches 1.5× further, for stronger hyper-stereo when you want it.\n- **Adaptive supersampling** — enlarging the 3D panel now automatically renders the game at higher resolution, so large panels stay crisp instead of pixelating.\n- **Reset** moved next to Done in the 3D settings.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
           "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.1.1/sm64coopdx-1.1.1-visionOS.ipa",
-          "size": 11278929,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-07-18T02:41:11Z",
-          "localizedDescription": "**Super Mario 64 Co-op Deluxe for Apple Vision Pro** — a native port of [sm64coopdx](https://github.com/coop-deluxe/sm64coopdx) (the Coop Deluxe Team's online-multiplayer Super Mario 64), rendering on **Metal**, including a world-locked **stereoscopic 3D mode**.\n\nShips with **no game content** — you supply your own **Super Mario 64 (US) ROM** (an 8 MB `.z64` you legally own). Drop it in at first launch; the ROM never leaves your device.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) and it installs *and updates itself* when new versions ship:\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/sm64coopdx-ios/main/sidestore/apps-visionos.json`\n\nOn **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`sm64coopdx-1.0.0-visionOS.ipa`** — Apple Vision Pro (visionOS 2+), 2D + 3D in one app\n\nFull instructions in the [README](https://github.com/rebelancap/sm64coopdx-ios#readme).\n\n### What's in it\n- The **full Super Mario 64 campaign**, rendered natively on Metal\n- **Online co-op** over CoopNet — join or host, the same online multiplayer as desktop coopdx\n- **Game controllers** (plays great with any gamepad); on-screen touch controls when no controller is connected\n- **60 / 90 / 120 Hz** — auto-detects your headset's panel (M5 Vision Pro runs up to 120)\n- **Apple Vision Pro 3D mode:** the game on a world-locked stereoscopic panel floating in your room, with spatial audio anchored at the screen, and live-tunable while you play — stereo depth, focus distance (with an Auto mode that adapts to your screen size), screen size/distance/height (any aspect renders true widescreen FOV, no stretching), surroundings dimming, and recenter. The 2D window parks as a small control card while you're in 3D.\n\nSuper Mario 64 © Nintendo. This project ships no Nintendo content; you supply your own ROM. Matching upstream sm64coopdx, no separate license is asserted over the port.",
-          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.0.0/sm64coopdx-1.0.0-visionOS.ipa",
-          "size": 11278377,
+          "size": 11278955,
           "minOSVersion": "2.0"
         }
       ]
