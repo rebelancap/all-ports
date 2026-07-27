@@ -103,11 +103,18 @@ python3 generate.py          # refresh both sources from the latest releases
 Bad config (missing icon, duplicate bundle id, unknown platform) fails immediately,
 before any network calls, and writes nothing.
 
-## The five sources this replaces
+## Relationship to the per-project sources
 
+This repo is the *convenience* tier, not a replacement. The per-project sources —
 `quake-ports`, `harbourmasters-ports`, and the in-repo `sidestore/` sources in
-`sm64coopdx-ios`, `dusklight-ios`, and `apotris-ios`. **Leave all five running.** Their
-URLs are baked into every existing install, and a deleted source strands those users
-with no update path and no error message. They're self-maintaining; just stop adding
-new ports to them. `migrate-from-legacy.py` is the one-shot that carried their version
-history into this repo.
+`sm64coopdx-ios`, `dusklight-ios` and `apotris-ios` — are first-class and permanent,
+for people who'd rather subscribe to one game or one family than to everything. Both
+tiers stay maintained; subscribe to whichever suits you.
+
+The practical consequence: a port listed in both tiers has its metadata in two configs,
+and **`bundleIdentifier` must agree between them and with the shipped Info.plist.**
+SideStore matches an installed app to its source entry by bundle id, so a disagreement
+means updates silently stop being offered.
+
+`import-history.py` is the one-shot that seeded this repo with the version history those
+sources had already accumulated.
