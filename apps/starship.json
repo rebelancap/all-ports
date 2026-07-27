@@ -1,0 +1,16 @@
+{
+  "name": "Starship",
+  "bundleIdentifier": "com.rebelancap.starship",
+  "repo": "rebelancap/Starship-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Star Fox 64 for iPhone & Vision Pro",
+  "localizedDescription": "The Starship port of Star Fox 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Star Fox 64 ROM and the app extracts it on device.",
+  "tintColor": "#2E5C8A",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

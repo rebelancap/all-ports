@@ -1,0 +1,53 @@
+name: Build SideStore sources
+
+on:
+  # Regenerate hourly so new app releases are picked up without any manual step.
+  schedule:
+    - cron: "17 * * * *"
+  # Manual run button in the Actions tab.
+  workflow_dispatch:
+  # Let a port repo trigger an immediate rebuild the moment it publishes a release
+  # (see README: "Instant refresh on release").
+  repository_dispatch:
+    types: [app-released]
+
+permissions:
+  contents: write               # to commit the regenerated JSON
+
+concurrency:
+  group: build-sources
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate source JSON
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 generate.py
+
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain apps-ios.json apps-visionos.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add apps-ios.json apps-visionos.json
+            git commit -m "chore: refresh SideStore sources"
+            git push
+          else
+            echo "No changes."
+          fi
+
+      # Publish first, complain second: a port with a broken release still leaves the
+      # sources valid and up to date for every other app, but the run goes red so the
+      # failure lands in your inbox instead of scrolling past in a log.
+      - name: Fail if any declared platform was missing its IPA
+        run: |
+          if [ -s problems.txt ]; then
+            echo "Sources were published, but:"
+            cat problems.txt
+            exit 1
+          fi

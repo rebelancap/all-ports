@@ -1,0 +1,16 @@
+{
+  "name": "Ship of Harkinian",
+  "bundleIdentifier": "com.rebelancap.soh",
+  "repo": "rebelancap/Shipwright-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Ocarina of Time for iPhone & Vision Pro",
+  "localizedDescription": "The Ship of Harkinian port of The Legend of Zelda: Ocarina of Time, running natively on Metal — the full quest with saves, the enhancements menu, texture-pack support, and on Apple Vision Pro a stereoscopic 3D mode. Ships with no game content: you supply your own Ocarina of Time ROM and the app extracts it on device.",
+  "tintColor": "#606A94",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

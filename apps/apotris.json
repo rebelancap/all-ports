@@ -1,0 +1,16 @@
+{
+  "name": "Apotris",
+  "bundleIdentifier": "com.rebelancap.apotris",
+  "repo": "rebelancap/apotris-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "A fast, feature-packed block-stacking game",
+  "localizedDescription": "Apotris — a fast, feature-packed block-stacking game — running natively on iPhone, iPad, and Apple Vision Pro through Metal (no emulator). Marathon, Sprint, Ultra, Dig, Blitz, Zen and more, with gesture / GB-button / controller / keyboard input, display filters (Sharp / LCD / CRT), and the full skin and palette customization. Built on Apotris by akouzoukos.",
+  "tintColor": "#E0B451",
+  "iosMinOS": "17.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

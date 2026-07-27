@@ -1,0 +1,16 @@
+{
+  "name": "Quake",
+  "bundleIdentifier": "com.rebelancap.vkquake",
+  "repo": "rebelancap/vkQuake-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Quake for iPhone & Vision Pro",
+  "localizedDescription": "The full Quake campaign, mission packs, QuakeC mods, and — on Apple Vision Pro — a stereoscopic 3D mode. Built on vkQuake. Ships with no game content; you supply your own Quake files.",
+  "tintColor": "#8a1a1a",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

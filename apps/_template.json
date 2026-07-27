@@ -1,0 +1,16 @@
+{
+  "name": "Port Name",
+  "bundleIdentifier": "com.rebelancap.slug",
+  "repo": "rebelancap/slug-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "One line, shown under the name in SideStore",
+  "localizedDescription": "Full description. Say what it is, what's native, what the Vision Pro mode does, and that the user brings their own game data.",
+  "tintColor": "#4C5C96",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

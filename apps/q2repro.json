@@ -1,0 +1,16 @@
+{
+  "name": "q2repro",
+  "bundleIdentifier": "com.rebelancap.q2repro",
+  "repo": "rebelancap/q2repro-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Quake II for iPhone & Vision Pro",
+  "localizedDescription": "Quake II, including the re-release content, with an Apple Vision Pro 3D mode. Built on q2repro. Bring your own Quake II game data.",
+  "tintColor": "#7a3010",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

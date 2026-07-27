@@ -1,0 +1,15 @@
+{
+  "name": "Stratagus",
+  "bundleIdentifier": "com.rebelancap.stratagus",
+  "repo": "rebelancap/stratagus-ios",
+  "platforms": [
+    "ios"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Warcraft II for iPhone & iPad",
+  "localizedDescription": "Warcraft II (Wargus) on iPhone and iPad, running the Stratagus engine natively. Single-player and local-network multiplayer, with touch and gesture controls, an on-screen keyboard, and saves visible in the Files app. Ships with no game content; you supply your own Warcraft II: Battle.net Edition files.",
+  "tintColor": "#1F6F4A",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

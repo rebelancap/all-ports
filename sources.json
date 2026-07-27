@@ -1,0 +1,20 @@
+{
+  "ios": {
+    "name": "rebelancap Ports — iPhone & iPad",
+    "identifier": "com.rebelancap.allports.ios",
+    "subtitle": "Native game ports for iPhone & iPad",
+    "description": "Every rebelancap game port that runs on iPhone and iPad — Quake, the HarbourMasters N64 ports, and more, all running natively on Metal. Each app ships with no game content; you supply your own game data.",
+    "website": "https://github.com/rebelancap/all-ports",
+    "tintColor": "#4C5C96",
+    "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/source-icon.png"
+  },
+  "visionos": {
+    "name": "rebelancap Ports — Apple Vision Pro",
+    "identifier": "com.rebelancap.allports.visionos",
+    "subtitle": "Native game ports for Apple Vision Pro",
+    "description": "Every rebelancap game port that runs on Apple Vision Pro — rendered natively on Metal, most with a world-locked stereoscopic 3D mode. Each app ships with no game content; you supply your own game data.",
+    "website": "https://github.com/rebelancap/all-ports",
+    "tintColor": "#4C5C96",
+    "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/source-icon.png"
+  }
+}

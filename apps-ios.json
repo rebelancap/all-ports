@@ -1,0 +1,310 @@
+{
+  "name": "rebelancap Ports — iPhone & iPad",
+  "identifier": "com.rebelancap.allports.ios",
+  "subtitle": "Native game ports for iPhone & iPad",
+  "description": "Every rebelancap game port that runs on iPhone and iPad — Quake, the HarbourMasters N64 ports, and more, all running natively on Metal. Each app ships with no game content; you supply your own game data.",
+  "website": "https://github.com/rebelancap/all-ports",
+  "tintColor": "#4C5C96",
+  "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/source-icon.png",
+  "apps": [
+    {
+      "name": "2 Ship 2 Harkinian",
+      "bundleIdentifier": "com.rebelancap.2ship",
+      "developerName": "rebelancap",
+      "subtitle": "Majora's Mask for iPhone & Vision Pro",
+      "localizedDescription": "The 2 Ship 2 Harkinian port of The Legend of Zelda: Majora's Mask, running natively on Metal, with the enhancements menu, texture-pack support, and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Majora's Mask ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/2ship.png",
+      "tintColor": "#3E7A4E",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T14:55:28Z",
+          "localizedDescription": "First public release of 2 Ship 2 Harkinian (The Legend of Zelda: Majora's Mask) for iPhone and Apple Vision Pro — a native Metal port. Full quest with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, texture-pack support, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Majora's Mask ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.0.0/2ship-1.0.0-iOS.ipa",
+          "size": 14174683,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Apotris",
+      "bundleIdentifier": "com.rebelancap.apotris",
+      "developerName": "rebelancap",
+      "subtitle": "A fast, feature-packed block-stacking game",
+      "localizedDescription": "Apotris — a fast, feature-packed block-stacking game — running natively on iPhone, iPad, and Apple Vision Pro through Metal (no emulator). Marathon, Sprint, Ultra, Dig, Blitz, Zen and more, with gesture / GB-button / controller / keyboard input, display filters (Sharp / LCD / CRT), and the full skin and palette customization. Built on Apotris by akouzoukos.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/apotris.png",
+      "tintColor": "#E0B451",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.1.8",
+          "date": "2026-07-20T03:52:01Z",
+          "localizedDescription": "A small follow-up to 1.1.7.\n\n## Fixed\n- **visionOS Settings** now describe the actual pinch gestures instead of the iOS touch wording. In menus, a **left-hand pinch is Back** (right-hand pinch confirms); gameplay lists the real pinch/chirality actions too. The gestures always worked — only the on-screen guide was wrong.\n\n## Install\nSideStore/AltStore: the source auto-updates to this version. Or sideload the IPAs below — dev-signed, so SideStore re-signs on install.",
+          "downloadURL": "https://github.com/rebelancap/apotris-ios/releases/download/v1.1.8/Apotris-1.1.8-iOS.ipa",
+          "size": 5308975,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.1.7",
+          "date": "2026-07-20T03:05:51Z",
+          "localizedDescription": "Online multiplayer, plus a big round of visionOS and iOS polish.\n\n## New\n- **Online Multi Battle** — up to 5 players over WebRTC, on the official `api.apotris.com` server. Verified cross-country on real iPhone + Vision Pro.\n\n## Fixed / improved\n- **visionOS gamepad** now works — the controller reaches GCController instead of being turned into a gaze pointer. Left stick doubles as the d-pad.\n- **visionOS window** — the move/resize handles are back, and the window is resizable.\n- **iOS touch** — tighter d-pad so a left/right press no longer misfires a destructive drop.\n- **Pause menu** Restart/Quit work on touch, gaze, and controller.\n- **Audio** revives after closing and reopening the visionOS window.\n- Bigger on-screen buttons; a gesture reference table in Settings.\n\n## Install\nSideStore/AltStore: add the source (auto-updates), or sideload the IPAs below. Dev-signed — SideStore re-signs on install.",
+          "downloadURL": "https://github.com/rebelancap/apotris-ios/releases/download/v1.1.7/Apotris-1.1.7-iOS.ipa",
+          "size": 5308976,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-18T17:53:28Z",
+          "localizedDescription": "**Apotris for iPhone, iPad, and Apple Vision Pro** — the first release.\n\nA native port of [Apotris](https://apotris.com) by akouzoukos: the game's own\nengine rebuilt for Apple platforms and presented through Metal (no emulator).\n\n**Install:** add the SideStore source in the [README](../../#install) — Apotris\nauto-updates from there. Or grab the `.ipa` below and sideload it directly\n(iOS/iPad via SideStore/AltStore/Sideloadly; Vision Pro via SideStore installed\nwith [iloader](https://github.com/rebelancap/iloader/releases#release-visionos)).\n\n**Highlights**\n- All offline modes: Marathon, Sprint, Dig, Ultra, Blitz, Combo, Zen, Master, Death, Training, and CPU battle\n- Gesture controls (drag/flick/tap), an optional GB-button overlay with haptics, full game-controller and keyboard support\n- Display filters: Sharp / LCD / CRT\n- Apple Vision Pro: a crisp, free-resizing window with chirality pinch controls and a native control ornament\n\nOnline multiplayer isn't in this build yet.\n\nLicensed AGPL-3.0, matching upstream Apotris.",
+          "downloadURL": "https://github.com/rebelancap/apotris-ios/releases/download/v1.0.0/Apotris-1.0.0-iOS.ipa",
+          "size": 4481517,
+          "minOSVersion": "17.0"
+        }
+      ]
+    },
+    {
+      "name": "Ghostship",
+      "bundleIdentifier": "com.rebelancap.ghostship",
+      "developerName": "rebelancap",
+      "subtitle": "A HarbourMasters N64 port for iPhone & Vision Pro",
+      "localizedDescription": "The Ghostship port, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/ghostship.png",
+      "tintColor": "#6A5ACD",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T16:17:18Z",
+          "localizedDescription": "First public release of Ghostship for iPhone and Apple Vision Pro — a native Metal N64 port. The full game with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.0/ghostship-1.0.0-iOS.ipa",
+          "size": 5542585,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "q2repro",
+      "bundleIdentifier": "com.rebelancap.q2repro",
+      "developerName": "rebelancap",
+      "subtitle": "Quake II for iPhone & Vision Pro",
+      "localizedDescription": "Quake II, including the re-release content, with an Apple Vision Pro 3D mode. Built on q2repro. Bring your own Quake II game data.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/q2repro.png",
+      "tintColor": "#7a3010",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.8",
+          "date": "2026-07-23T03:09:45Z",
+          "localizedDescription": "**Quake II for iPhone and Apple Vision Pro** — a native port of [q2repro](https://github.com/Paril/q2repro) (Q2PRO with 2023 re-release support, rendering on Metal via ANGLE), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake II files (2023 re-release recommended; an original `baseq2` also works).\n\n### New in 1.0.8 — Vision Pro 3D\n- **Eye-tracked foveated rendering**, always on when the hardware supports it. The screen is rendered at full density exactly where you're looking, so 3D is noticeably sharper at no performance cost.\n- **New settings: Render Resolution + Sharpening.** Render Resolution (40–100%) sets the per-eye render budget; Sharpening (contrast-adaptive, applies live) restores edge crispness. They work as a pair — the default 60% + 100% holds a locked 120 fps in play while staying crisp.\n- **Smoother 3D** overall: the stereo pipeline now hands the compositor only completed frames and never re-processes an unchanged one.\n- **Exiting 3D reliably restores your window.** The \"window stuck tiny after leaving 3D\" bug is fixed at its root cause, in every exit flow — including quitting the app while in 3D and relaunching.\n\n### New in 1.0.8 — iPhone and Vision Pro\n- On first launch the app's folder now appears in the Files app immediately (with a read-me explaining what to copy where). The app no longer pre-creates `baseq2` — dropping your own folder in no longer ends up as \"baseq2 2\".\n- The FPS counter toggle now works in 3D and persists across launches.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and Quake II installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake (vkQuake) and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`q2repro-1.0.8-iOS.ipa`** — iPhone (iOS 15+)\n- **`q2repro-1.0.8-visionOS.ipa`** — Apple Vision Pro (visionOS 26+), 2D + 3D in one app\n\nFull instructions in the [README](https://github.com/rebelancap/q2repro-ios#readme).\n\nGPLv2, matching upstream Q2PRO. QUAKE II © id Software.",
+          "downloadURL": "https://github.com/rebelancap/q2repro-ios/releases/download/v1.0.8/q2repro-1.0.8-iOS.ipa",
+          "size": 8174655,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-07-20T04:29:17Z",
+          "localizedDescription": "**Quake II for iPhone and Apple Vision Pro** — a native port of [q2repro](https://github.com/Paril/q2repro) (Q2PRO with 2023 re-release support, rendering on Metal via ANGLE), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake II files (2023 re-release recommended; an original `baseq2` also works).\n\n### Fixed in 1.0.3 (visionOS)\n- **Exiting 3D reliably restores the window to its pre-3D size.** The restore could be silently dropped in some flows (exiting via the Digital Crown, closing the control card while in 3D, or the app relaunching while parked), leaving the window stuck at the small card size until manually resized. The window now snaps back to exactly the size it had before entering 3D, in every exit flow — and that size survives relaunches.\n\nThe iPhone build is unchanged apart from the version bump.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and Quake II installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake (vkQuake) and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`q2repro-1.0.3-iOS.ipa`** — iPhone (iOS 15+)\n- **`q2repro-1.0.3-visionOS.ipa`** — Apple Vision Pro (visionOS 26+), 2D + 3D in one app\n\nFull instructions in the [README](https://github.com/rebelancap/q2repro-ios#readme).\n\nGPLv2, matching upstream Q2PRO. QUAKE II © id Software.",
+          "downloadURL": "https://github.com/rebelancap/q2repro-ios/releases/download/v1.0.3/Quake2-1.0.3-iOS.ipa",
+          "size": 8174443,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-07-19T22:34:43Z",
+          "localizedDescription": "**Quake II for iPhone and Apple Vision Pro** — a native port of [q2repro](https://github.com/Paril/q2repro) (Q2PRO with 2023 re-release support, rendering on Metal via ANGLE), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake II files (2023 re-release recommended; an original `baseq2` also works).\n\n### Fixed in 1.0.2\n- **The app icon now shows in SideStore's My Apps list** (and anywhere else that reads per-device icon renditions). The icon set was single-size before; it now ships the full multi-size set.\n\nNo gameplay changes — both builds are otherwise identical to 1.0.1.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and Quake II installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake (vkQuake) and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`q2repro-1.0.2-iOS.ipa`** — iPhone (iOS 15+)\n- **`q2repro-1.0.2-visionOS.ipa`** — Apple Vision Pro (visionOS 26+), 2D + 3D in one app\n\nFull instructions in the [README](https://github.com/rebelancap/q2repro-ios#readme).\n\nGPLv2, matching upstream Q2PRO. QUAKE II © id Software.",
+          "downloadURL": "https://github.com/rebelancap/q2repro-ios/releases/download/v1.0.2/Quake2-1.0.2-iOS.ipa",
+          "size": 8174437,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-07-15T08:47:44Z",
+          "localizedDescription": "**Quake II for iPhone and Apple Vision Pro** — a native port of [q2repro](https://github.com/Paril/q2repro) (Q2PRO with 2023 re-release support, rendering on Metal via ANGLE), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake II files (2023 re-release recommended; an original `baseq2` also works).\n\n### Fixed in 1.0.1 (visionOS hotfix)\n- **Sound now resumes when you reopen the window.** Closing the 2D window and coming back left the app silent until a full relaunch — the audio session is now suspended and restarted properly with the window (your config is also saved at that moment).\n- **The app's folder in the Files app shows the Quake II icon** instead of a blank one.\n\nThe iPhone build is unchanged apart from the version bump.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and Quake II installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake (vkQuake) and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`q2repro-1.0.1-iOS.ipa`** — iPhone (iOS 15+)\n- **`q2repro-1.0.1-visionOS.ipa`** — Apple Vision Pro (visionOS 26+), 2D + 3D in one app\n\nFull instructions in the [README](https://github.com/rebelancap/q2repro-ios#readme).\n\nGPLv2, matching upstream Q2PRO. QUAKE II © id Software.",
+          "downloadURL": "https://github.com/rebelancap/q2repro-ios/releases/download/v1.0.1/Quake2-1.0.1-iOS.ipa",
+          "size": 9180706,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-15T07:25:45Z",
+          "localizedDescription": "**Quake II for iPhone and Apple Vision Pro** — a native port of [q2repro](https://github.com/Paril/q2repro) (Q2PRO with 2023 re-release support, rendering on Metal via ANGLE), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake II files (2023 re-release recommended; an original `baseq2` also works).\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and Quake II installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake (vkQuake) and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`q2repro-1.0.0-iOS.ipa`** — iPhone (iOS 15+)\n- **`q2repro-1.0.0-visionOS.ipa`** — Apple Vision Pro (visionOS 26+), 2D + 3D in one app\n\nFull instructions in the [README](https://github.com/rebelancap/q2repro-ios#readme).\n\n### What's in it\n- Full single-player campaign with saves; the re-release episodes and expansions (*The Reckoning*, *Ground Zero*, *Call of the Machine*, *Quake II 64*) with their intro cinematics; classic mission packs\n- **Action Quake II** compiled in; classic mods via the generated Mods menu\n- Music, cinematics, all sound, demo playback, and the full menu/console by touch or controller\n- Game controllers with the re-release layout (weapon wheel included), on-screen touch sticks, gyro aim\n- 60 / 120 Hz (ProMotion), in-app settings that persist; Q2PRO multiplayer with a server browser\n- **Apple Vision Pro:** free-resizing 2D window, plus a 3D mode — the game on a world-locked stereoscopic panel with live-tunable screen size, distance, depth, crosshair distance, and room dimming; spatial audio anchored at the screen\n\nGPLv2, matching upstream Q2PRO. QUAKE II © id Software.",
+          "downloadURL": "https://github.com/rebelancap/q2repro-ios/releases/download/v1.0.0/q2repro-1.0.0-iOS.ipa",
+          "size": 9180700,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "Quake III Arena",
+      "bundleIdentifier": "com.rebelancap.quake3e",
+      "developerName": "rebelancap",
+      "subtitle": "Quake III Arena for iPhone & Vision Pro",
+      "localizedDescription": "Quake III Arena with bots and multiplayer, plus an Apple Vision Pro 3D mode. Built on quake3e. Bring your own Quake III game data.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/quake3e.png",
+      "tintColor": "#4a4a4a",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-07-23T03:17:22Z",
+          "localizedDescription": "A big Apple Vision Pro 3D-mode upgrade, plus fixes for every platform.\n\n## What's new in 1.0.2\n\n### Apple Vision Pro — 3D mode\n- **Dramatically sharper 3D.** The immersive panel now uses eye-tracked foveated\n  rendering — resolution concentrates exactly where you look. The blur compared\n  to the 2D window is gone.\n- **Fixed the real world \"leaking\" through bright surfaces** (doors, ammo boxes,\n  bullet marks, shadows) in 3D — the panel is now fully opaque.\n- **Fixed one-eyed menu cursor** and the scoreboard highlight rendering\n  differently per eye.\n- **First-person weapon no longer pops uncomfortably close** in 3D — it now uses\n  the same weapon-stereo projection desktop Quake III uses (the Vulkan renderer\n  had never picked it up).\n- **Brightness works in 3D** — the settings Brightness slider now adjusts the 3D\n  panel live (open settings with the gear while immersive).\n- **120 Hz on M5 Vision Pro.** \"Native\" refresh was capped at 90 Hz; it now runs\n  the panel's full rate (earlier headsets remain at 90).\n- **App icon now shows correctly** in SideStore / AltStore's \"My Apps\" list on\n  visionOS.\n\n### All devices\n- **Gamepad look sensitivity fixed** — the Look sensitivity X/Y sliders now\n  affect controller aim (they were touch-only), with a faster default and a\n  wider 0.5–10 range.\n- **In-game brightness works** — the stock SETUP menu's Brightness slider was\n  disabled on iOS/visionOS; it's live now, and default brightness is brighter.\n- **Settings sheet:** the Done button is pinned (no more scrolling back up),\n  and Vision Pro panel measurements default to feet.\n\nEverything from 1.0.1 is unchanged otherwise — you keep your settings and data.\n\n## Install\n\n**The easy way — the auto-updating source (SideStore / AltStore).** Add the shared\nQuake-ports source, then install Quake III from it; future updates appear automatically:\n\n- iPhone / iPad: `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- Apple Vision Pro: `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nOn Apple Vision Pro, first install SideStore onto the headset with\n[iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the\nsource in SideStore. (iloader installs SideStore itself — apps are then installed and\nkept refreshed by SideStore.)\n\n**Or manually:** download the IPA below and sideload it with\n[SideStore](https://sidestore.io), [AltStore](https://altstore.io), or\n[Sideloadly](https://sideloadly.io):\n\n- `Quake3e-1.0.2-iOS.ipa` — iPhone / iPad (iOS 16+)\n- `Quake3e-1.0.2-visionOS.ipa` — Apple Vision Pro (visionOS 2+)\n\n**You bring the game:** copy your own `baseq3` folder (retail `pak0.pk3` from Steam,\nGOG, or CD) into the app at first launch or via the Files app. Nothing copyrighted\nships in these IPAs. See the [README](https://github.com/rebelancap/quake3e-ios#readme)\nfor setup, controls, and FAQ.",
+          "downloadURL": "https://github.com/rebelancap/quake3e-ios/releases/download/v1.0.2/Quake3e-1.0.2-iOS.ipa",
+          "size": 4156560,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-07-19T23:24:59Z",
+          "localizedDescription": "Maintenance release — a blank-icon fix plus the latest upstream\n[Quake3e](https://github.com/ec-/Quake3e) engine.\n\n## What's new in 1.0.1\n\n- **Fixed the blank app icon** in SideStore / AltStore's \"My Apps\" list. The app now\n  ships a compiled icon asset catalog, so the Quake III icon shows correctly once you\n  update or reinstall.\n- **Updated to the latest Quake3e engine**, picking up upstream fixes: a network\n  packet-queue timeout correction, a bot-AI (AAS) regression fix, a Vulkan depth-write\n  rendering-correctness fix, and assorted cleanups.\n\nEverything from 1.0.0 is unchanged — you keep your settings and data.\n\n## Install\n\n**The easy way — the auto-updating source (SideStore / AltStore).** Add the shared\nQuake-ports source, then install Quake III from it; future updates appear automatically:\n\n- iPhone / iPad: `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- Apple Vision Pro: `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nOn Apple Vision Pro, first install SideStore onto the headset with\n[iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the\nsource in SideStore. (iloader installs SideStore itself — apps are then installed and\nkept refreshed by SideStore.)\n\n**Or manually:** download the IPA below and sideload it with\n[SideStore](https://sidestore.io), [AltStore](https://altstore.io), or\n[Sideloadly](https://sideloadly.io):\n\n- `Quake3e-1.0.1-iOS.ipa` — iPhone / iPad (iOS 16+)\n- `Quake3e-1.0.1-visionOS.ipa` — Apple Vision Pro (visionOS 2+)\n\n**You bring the game:** copy your own `baseq3` folder (retail `pak0.pk3` from Steam,\nGOG, or CD) into the app at first launch or via the Files app. Nothing copyrighted\nships in these IPAs. See the [README](https://github.com/rebelancap/quake3e-ios#readme)\nfor setup, controls, and FAQ.",
+          "downloadURL": "https://github.com/rebelancap/quake3e-ios/releases/download/v1.0.1/Quake3e-1.0.1-iOS.ipa",
+          "size": 4154338,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-15T07:04:31Z",
+          "localizedDescription": "First public release — Quake III Arena for iPhone and Apple Vision Pro, built on\n[Quake3e](https://github.com/ec-/Quake3e)'s Vulkan renderer running natively on Metal.\n\n**You bring the game:** copy your own `baseq3` folder (retail `pak0.pk3` from Steam,\nGOG, or CD) into the app at first launch or via the Files app. Nothing copyrighted\nships in these IPAs. See the [README](https://github.com/rebelancap/quake3e-ios#readme)\nfor setup, controls, and FAQ.\n\n## Install\n\n**The easy way — the auto-updating source (SideStore / AltStore).** Add the shared\nQuake-ports source, then install Quake III from it; future updates appear automatically:\n\n- iPhone / iPad: `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- Apple Vision Pro: `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nOn Apple Vision Pro, first install SideStore onto the headset with\n[iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the\nsource in SideStore. (iloader installs SideStore itself — apps are then installed and\nkept refreshed by SideStore.)\n\n**Or manually:** download the IPA below and sideload it with\n[SideStore](https://sidestore.io), [AltStore](https://altstore.io), or\n[Sideloadly](https://sideloadly.io):\n\n- `Quake3e-1.0.0-iOS.ipa` — iPhone / iPad (iOS 16+)\n- `Quake3e-1.0.0-visionOS.ipa` — Apple Vision Pro (visionOS 2+)\n\n## Highlights\n\n- Locked **120 fps** on ProMotion at native resolution\n- Full single-player skirmish + bot ladder, cinematics, music, demos\n- **Internet & LAN multiplayer** — live server browser, direct connect, automatic\n  map downloads\n- **Mods as drop-in data** — CPMA, OSP, defrag, Urban Terror, Team Arena\n- Game controllers (rebindable), touch sticks, gyro aim, persistent settings\n- **Apple Vision Pro:** resizable 2D window + stereoscopic **3D mode** — the game on\n  a world-locked panel with real depth (both eyes rendered every frame), live-tunable\n  screen size / distance / stereo depth / crosshair distance, surroundings dimming,\n  and audio anchored to the screen",
+          "downloadURL": "https://github.com/rebelancap/quake3e-ios/releases/download/v1.0.0/Quake3e-1.0.0-iOS.ipa",
+          "size": 2734947,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "Ship of Harkinian",
+      "bundleIdentifier": "com.rebelancap.soh",
+      "developerName": "rebelancap",
+      "subtitle": "Ocarina of Time for iPhone & Vision Pro",
+      "localizedDescription": "The Ship of Harkinian port of The Legend of Zelda: Ocarina of Time, running natively on Metal — the full quest with saves, the enhancements menu, texture-pack support, and on Apple Vision Pro a stereoscopic 3D mode. Ships with no game content: you supply your own Ocarina of Time ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/soh.png",
+      "tintColor": "#606A94",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T01:50:50Z",
+          "localizedDescription": "First public release of Ship of Harkinian (The Legend of Zelda: Ocarina of Time) for iPhone and Apple Vision Pro — a native Metal port.\n\n**Features**\n- Full quest with saves, audio and music, and cutscenes\n- The Ship of Harkinian enhancements menu (higher frame rates, widescreen, quality-of-life toggles)\n- In-app ROM extraction — no PC tools needed\n- Game controllers with menu-aware navigation, plus a tunable on-screen touch layout (including per-button hide/show)\n- 60 / 120 Hz (ProMotion) and a supersampling slider\n- Texture-pack (`.o2r`) support via drag-and-drop in Files\n- **Apple Vision Pro:** a true-4K windowed mode plus a world-locked **stereoscopic 3D mode** with foveated rendering and spatial audio\n\n**Install:** add the SideStore source and install — see the [README](https://github.com/rebelancap/Shipwright-ios#install). Bring your own Ocarina of Time ROM; no game content is included.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.0.0/soh-1.0.0-iOS.ipa",
+          "size": 25550982,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "SpaghettiKart",
+      "bundleIdentifier": "com.rebelancap.spaghettikart",
+      "developerName": "rebelancap",
+      "subtitle": "Mario Kart 64 for iPhone & Vision Pro",
+      "localizedDescription": "The SpaghettiKart port of Mario Kart 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Mario Kart 64 ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/spaghettikart.png",
+      "tintColor": "#C4342B",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T14:55:30Z",
+          "localizedDescription": "First public release of SpaghettiKart (Mario Kart 64) for iPhone and Apple Vision Pro — a native Metal port. Grand Prix, Time Trials and VS with saves, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Mario Kart 64 ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.0/spaghettikart-1.0.0-iOS.ipa",
+          "size": 7565909,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Starship",
+      "bundleIdentifier": "com.rebelancap.starship",
+      "developerName": "rebelancap",
+      "subtitle": "Star Fox 64 for iPhone & Vision Pro",
+      "localizedDescription": "The Starship port of Star Fox 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Star Fox 64 ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/starship.png",
+      "tintColor": "#2E5C8A",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T17:04:12Z",
+          "localizedDescription": "First public release of Starship (Star Fox 64) for iPhone and Apple Vision Pro — a native Metal port. The full campaign with saves and branching routes, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Star Fox 64 ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.0/starship-1.0.0-iOS.ipa",
+          "size": 3758685,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Stratagus",
+      "bundleIdentifier": "com.rebelancap.stratagus",
+      "developerName": "rebelancap",
+      "subtitle": "Warcraft II for iPhone & iPad",
+      "localizedDescription": "Warcraft II (Wargus) on iPhone and iPad, running the Stratagus engine natively. Single-player and local-network multiplayer, with touch and gesture controls, an on-screen keyboard, and saves visible in the Files app. Ships with no game content; you supply your own Warcraft II: Battle.net Edition files.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/stratagus.png",
+      "tintColor": "#1F6F4A",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1",
+          "date": "2026-07-04T05:35:18Z",
+          "localizedDescription": "Warcraft II (Wargus) on iOS — single-player and local-network multiplayer.\r\n\r\nInstall: sideload the .ipa with SideStore, AltStore, Sideloadly, or TrollStore. Bring your own Warcraft II data (GOG/CD) — import it on first launch. See more, including touch controls and multiplayer details in the [README](https://github.com/rebelancap/stratagus-ios#).\r\n\r\nNote: LAN auto-discovery requires signing with a PAID Apple Developer account (the multicast entitlement). Free account sideloads can still play multiplayer — use \"Add server\" in Join Local Game to enter the host's IP manually.",
+          "downloadURL": "https://github.com/rebelancap/stratagus-ios/releases/download/v0.1.0/Stratagus.ipa",
+          "size": 11469980,
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Quake",
+      "bundleIdentifier": "com.rebelancap.vkquake",
+      "developerName": "rebelancap",
+      "subtitle": "Quake for iPhone & Vision Pro",
+      "localizedDescription": "The full Quake campaign, mission packs, QuakeC mods, and — on Apple Vision Pro — a stereoscopic 3D mode. Built on vkQuake. Ships with no game content; you supply your own Quake files.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/vkquake.png",
+      "tintColor": "#8a1a1a",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2026-07-23T03:02:28Z",
+          "localizedDescription": "**Quake for iPhone, iPad, and Apple Vision Pro** — a native port of [vkQuake](https://github.com/Novum/vkQuake) (Vulkan via MoltenVK), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake files (2021 re-release recommended; original `pak0`/`pak1` also works).\n\n### What's new in 1.0.3\n\n**The 3D screen on Apple Vision Pro is dramatically sharper.** The 3D mode now renders with eye-tracked foveated rendering — resolution concentrates exactly where you look, the same mechanism that keeps native visionOS windows crisp. The softness the 3D panel used to have compared to the 2D window is gone, at no performance cost. (If you ever need to compare, `vkq3dfov 0|1` in the console toggles it; re-enter 3D to apply.)\n\nAlso fixed, on Vision Pro:\n- The FPS counter now sits in the top-right corner (it could drift toward the middle of the window after resizing)\n- **\"FPS on Panel\"** now actually works — turn it on in Settings and the counter appears at the top-right of the 3D screen\n- The parked window while playing in 3D shows its **\"Playing in 3D\"** cover again instead of a frozen game frame\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and the app installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake II and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`vkQuake-1.0.3-iOS.ipa`** — iPhone / iPad (iOS 16+)\n- **`vkQuake-1.0.3-visionOS.ipa`** — Apple Vision Pro (visionOS 2+)\n\nFull instructions in the [README](https://github.com/rebelancap/vkQuake-ios#readme).\n\n### What's in it\n- Full single-player campaign with saves, both mission packs, and the re-release episodes (Dimension of the Past, Dimension of the Machine)\n- QuakeC mods — drop a mod folder in and launch it from a generated menu (Arcane Dimensions, Copper, Alkaline, …)\n- Music, all sound, demos, and the full menu/console by touch or controller\n- Game controllers, on-screen touch sticks, and gyro aim\n- 60 / 120 Hz (ProMotion), in-app settings that persist\n- **Apple Vision Pro:** free-resizing 2D window, plus a 3D mode — the game on a world-locked stereoscopic panel with eye-tracked foveated rendering and live-tunable screen size, distance, depth, and room dimming\n\nGPLv2, matching upstream vkQuake. QUAKE © id Software.",
+          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.0.3/vkQuake-1.0.3-iOS.ipa",
+          "size": 5028429,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-07-20T05:33:46Z",
+          "localizedDescription": "**Quake for iPhone, iPad, and Apple Vision Pro** — a native port of [vkQuake](https://github.com/Novum/vkQuake) (Vulkan via MoltenVK), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake files (2021 re-release recommended; original `pak0`/`pak1` also works).\n\n### What's fixed in 1.0.2\n- **The app icon now actually shows in SideStore/AltStore's \"My Apps\" list.** The 1.0.1 attempt didn't fix it — those tools resolve the installed icon by looking up a specific image *name* inside the app's compiled asset catalog, and the name they ask for wasn't present. 1.0.2 bakes that exact name into the catalog, so the real icon appears in the installed-apps list (it was always fine on the Home Screen and in the source).\n\nIf you already have the app installed, SideStore/AltStore will offer 1.0.2 as an update once it refreshes the source.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and the app installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake II and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`vkQuake-1.0.2-iOS.ipa`** — iPhone / iPad (iOS 16+)\n- **`vkQuake-1.0.2-visionOS.ipa`** — Apple Vision Pro (visionOS 2+)\n\nFull instructions in the [README](https://github.com/rebelancap/vkQuake-ios#readme).\n\n### What's in it\n- Full single-player campaign with saves, both mission packs, and the re-release episodes (Dimension of the Past, Dimension of the Machine)\n- QuakeC mods — drop a mod folder in and launch it from a generated menu (Arcane Dimensions, Copper, Alkaline, …)\n- Music, all sound, demos, and the full menu/console by touch or controller\n- Game controllers, on-screen touch sticks, and gyro aim\n- 60 / 120 Hz (ProMotion), in-app settings that persist\n- **Apple Vision Pro:** free-resizing 2D window, plus a 3D mode — the game on a world-locked stereoscopic panel with live-tunable screen size, distance, depth, and room dimming\n\nGPLv2, matching upstream vkQuake. QUAKE © id Software.",
+          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.0.2/vkQuake-1.0.2-iOS.ipa",
+          "size": 5028345,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-07-19T21:41:32Z",
+          "localizedDescription": "**Quake for iPhone, iPad, and Apple Vision Pro** — a native port of [vkQuake](https://github.com/Novum/vkQuake) (Vulkan via MoltenVK), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake files (2021 re-release recommended; original `pak0`/`pak1` also works).\n\n### What's fixed in 1.0.1\n- **App icon now shows in SideStore/AltStore's \"My Apps\" list.** The icon previously appeared as a blank white tile in the installed-apps list (it was fine on the Home Screen and in the source). The app now ships a proper compiled asset catalog, which is what those tools read for the installed icon. Update to 1.0.1 and the real icon appears.\n\nIf you already have 1.0.0 installed, SideStore/AltStore will offer 1.0.1 as an update automatically once it refreshes the source.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) and vkQuake installs *and updates itself* when new versions ship:\n- **iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json`\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json`\n\nThese are shared sources — they also carry Quake II and Quake III. On **Apple Vision Pro**, first install SideStore onto the headset with [iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\n### Or download and sideload manually\n- **`vkQuake-1.0.1-iOS.ipa`** — iPhone / iPad (iOS 16+)\n- **`vkQuake-1.0.1-visionOS.ipa`** — Apple Vision Pro (visionOS 2+)\n\nFull instructions in the [README](https://github.com/rebelancap/vkQuake-ios#readme).\n\n### What's in it\n- Full single-player campaign with saves, both mission packs, and the re-release episodes (Dimension of the Past, Dimension of the Machine)\n- QuakeC mods — drop a mod folder in and launch it from a generated menu (Arcane Dimensions, Copper, Alkaline, …)\n- Music, all sound, demos, and the full menu/console by touch or controller\n- Game controllers, on-screen touch sticks, and gyro aim\n- 60 / 120 Hz (ProMotion), in-app settings that persist\n- **Apple Vision Pro:** free-resizing 2D window, plus a 3D mode — the game on a world-locked stereoscopic panel with live-tunable screen size, distance, depth, and room dimming\n\nGPLv2, matching upstream vkQuake. QUAKE © id Software.",
+          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.0.1/vkQuake-1.0.1-iOS.ipa",
+          "size": 4938484,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-15T06:55:22Z",
+          "localizedDescription": "**Quake for iPhone, iPad, and Apple Vision Pro** — a native port of [vkQuake](https://github.com/Novum/vkQuake) (Vulkan via MoltenVK), including a world-locked **stereoscopic 3D mode** on Apple Vision Pro.\n\nShips with **no game content** — you supply your own Quake files (2021 re-release recommended; original `pak0`/`pak1` also works).\n\n### Downloads\n- **`vkQuake-1.0.0-iOS.ipa`** — iPhone / iPad (iOS 16+)\n- **`vkQuake-1.0.0-visionOS.ipa`** — Apple Vision Pro (visionOS 2+)\n\nSideload with [SideStore](https://sidestore.io) / [AltStore](https://altstore.io) (iPhone) or [iloader](https://github.com/rebelancap/iloader/releases#release-visionos) (Vision Pro). Full instructions in the [README](https://github.com/rebelancap/vkQuake-ios#readme).\n\n### What's in it\n- Full single-player campaign with saves, both mission packs, and the re-release episodes (Dimension of the Past, Dimension of the Machine)\n- QuakeC mods — drop a mod folder in and launch it from a generated menu (Arcane Dimensions, Copper, Alkaline, …)\n- Music, all sound, demos, and the full menu/console by touch or controller\n- Game controllers, on-screen touch sticks, and gyro aim\n- 60 / 120 Hz (ProMotion), in-app settings that persist\n- **Apple Vision Pro:** free-resizing 2D window, plus a 3D mode — the game on a world-locked stereoscopic panel with live-tunable screen size, distance, depth, and room dimming\n\nGPLv2, matching upstream vkQuake. QUAKE © id Software.",
+          "downloadURL": "https://github.com/rebelancap/vkQuake-ios/releases/download/v1.0.0/vkQuake-1.0.0-iOS.ipa",
+          "size": 3203067,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}

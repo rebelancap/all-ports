@@ -1,0 +1,16 @@
+{
+  "name": "Quake III Arena",
+  "bundleIdentifier": "com.rebelancap.quake3e",
+  "repo": "rebelancap/quake3e-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Quake III Arena for iPhone & Vision Pro",
+  "localizedDescription": "Quake III Arena with bots and multiplayer, plus an Apple Vision Pro 3D mode. Built on quake3e. Bring your own Quake III game data.",
+  "tintColor": "#4a4a4a",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

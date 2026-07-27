@@ -1,0 +1,16 @@
+{
+  "name": "2 Ship 2 Harkinian",
+  "bundleIdentifier": "com.rebelancap.2ship",
+  "repo": "rebelancap/2ship2harkinian-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Majora's Mask for iPhone & Vision Pro",
+  "localizedDescription": "The 2 Ship 2 Harkinian port of The Legend of Zelda: Majora's Mask, running natively on Metal, with the enhancements menu, texture-pack support, and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Majora's Mask ROM and the app extracts it on device.",
+  "tintColor": "#3E7A4E",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

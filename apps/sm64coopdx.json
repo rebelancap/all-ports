@@ -1,0 +1,15 @@
+{
+  "name": "Super Mario 64 Co-op Deluxe",
+  "bundleIdentifier": "com.sm64coopdx.ios",
+  "repo": "rebelancap/sm64coopdx-ios",
+  "platforms": [
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Super Mario 64 Co-op Deluxe for Apple Vision Pro",
+  "localizedDescription": "Super Mario 64 Co-op Deluxe on Apple Vision Pro: the full game rendered natively on Metal, online co-op over CoopNet, and a world-locked stereoscopic 3D mode with live-tunable screen size, distance, depth, and focus. Ships with no game content; you supply your own Super Mario 64 (US) ROM.",
+  "tintColor": "#E60012",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}

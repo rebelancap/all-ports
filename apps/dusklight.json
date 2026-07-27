@@ -1,0 +1,17 @@
+{
+  "name": "Dusklight",
+  "bundleIdentifier": "com.rebelancap.dusklight",
+  "repo": "rebelancap/dusklight-ios",
+  "platforms": [
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "The Legend of Zelda: Twilight Princess for Apple Vision Pro",
+  "localizedDescription": "The Legend of Zelda: Twilight Princess on Apple Vision Pro: the full GameCube game rendered natively on Metal, in a free-floating 2D window and a world-locked stereoscopic 3D mode with foveated rendering, spatial audio anchored to the screen, and live-tunable screen size, distance, and depth. Ships with no game content; you supply your own GameCube Twilight Princess disc image.",
+  "tintColor": "#C9A227",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": [
+    "https://raw.githubusercontent.com/rebelancap/dusklight-ios/main/docs/screenshots/visionos-2d-title.jpg"
+  ]
+}
