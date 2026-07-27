@@ -30,5 +30,21 @@
     "website": "https://github.com/rebelancap/all-ports",
     "tintColor": "#4C5C96",
     "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/source-icon.png"
+  },
+  "featured": {
+    "visionos": [
+      "soh",
+      "vkquake",
+      "dusklight",
+      "sm64coopdx",
+      "apotris"
+    ],
+    "ios": [
+      "soh",
+      "vkquake",
+      "spaghettikart",
+      "apotris",
+      "stratagus"
+    ]
   }
 }

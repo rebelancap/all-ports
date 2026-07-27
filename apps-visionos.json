@@ -327,5 +327,12 @@
       ]
     }
   ],
+  "featuredApps": [
+    "com.rebelancap.soh",
+    "com.rebelancap.vkquake",
+    "com.rebelancap.dusklight",
+    "com.rebelancap.sm64coopdx",
+    "com.rebelancap.apotris"
+  ],
   "news": []
 }

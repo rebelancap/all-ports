@@ -306,5 +306,12 @@
       ]
     }
   ],
+  "featuredApps": [
+    "com.rebelancap.soh",
+    "com.rebelancap.vkquake",
+    "com.rebelancap.spaghettikart",
+    "com.rebelancap.apotris",
+    "com.rebelancap.stratagus"
+  ],
   "news": []
 }

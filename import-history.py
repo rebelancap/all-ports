@@ -58,7 +58,7 @@ def existing_versions():
 
 def main():
     dry = "--dry-run" in sys.argv
-    sources, apps, news = load_config()
+    sources, apps, news, _featured = load_config()
     have = existing_versions()
 
     for kind in PLATFORMS:

@@ -22,6 +22,16 @@ drift apart. The next hourly run picks it up. A port with no GitHub release yet 
 reported and skipped; it appears on its own the day you ship one. Skip step 3 and it
 still works — it just lands at the bottom until you place it.
 
+## Featured apps
+
+`featured` in `sources.json` drives each source's About page. AltStore/SideStore
+display **only the first five**, and default to the first five apps in the source if
+you don't set it — so five is the whole budget, and more than five is a build error.
+
+It's keyed by platform because it carries bundle ids, and a visionOS-only port has no
+id to point at in the iOS source. A bare list means "both platforms"; anything that
+isn't in a given source is skipped with a note rather than emitted as a dead id.
+
 ## Shelf order
 
 SideStore renders `apps` in array order, so the `order` list in `sources.json` is the

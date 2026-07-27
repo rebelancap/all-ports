@@ -105,18 +105,36 @@ def load_config():
     if len(order) != len(set(order)):
         errs.append("sources.json: order contains a duplicate slug")
 
+    # featuredApps is per-platform because it carries bundle ids, and a visionOS-only
+    # port has no id to point at in the iOS source. A bare list means "both platforms".
+    featured = sources.get("featured", {})
+    if isinstance(featured, list):
+        featured = {k: list(featured) for k in PLATFORMS}
+    for kind, slugs in featured.items():
+        if kind not in PLATFORMS:
+            errs.append(f"sources.json: featured has unknown platform '{kind}'")
+            continue
+        for slug in slugs:
+            if slug not in known:
+                errs.append(f"sources.json: featured.{kind} lists '{slug}', "
+                            f"which has no apps/{slug}.json")
+        if len(slugs) > 5:
+            errs.append(f"sources.json: featured.{kind} has {len(slugs)} entries — "
+                        f"AltStore/SideStore only display the first 5")
+
     if errs:
         sys.exit("FATAL: bad config\n  " + "\n  ".join(errs))
 
     rank = {slug: i for i, slug in enumerate(order)}
     apps.sort(key=lambda c: (rank.get(c["slug"], len(order)), c["slug"]))
+    cfg_extras = {"featured": featured}
 
     news = []
     if os.path.exists(here("news.json")):
         with open(here("news.json")) as f:
             news = json.load(f)
 
-    return sources, apps, news
+    return sources, apps, news, cfg_extras["featured"]
 
 
 # ------------------------------------------------------------------ github api
@@ -314,9 +332,11 @@ def app_entry(cfg, versions):
     }
 
 
-def write_source(kind, header, apps, news, out_path):
+def write_source(kind, header, apps, news, featured_ids, out_path):
     src = dict(header)
     src["apps"] = apps
+    if featured_ids:
+        src["featuredApps"] = featured_ids
     src["news"] = news
     with open(out_path, "w") as f:
         json.dump(src, f, indent=2, ensure_ascii=False)
@@ -325,7 +345,7 @@ def write_source(kind, header, apps, news, out_path):
 
 
 def main():
-    sources, apps, news = load_config()
+    sources, apps, news, featured = load_config()
 
     prev = {k: load_existing(here(f"apps-{k}.json")) for k in PLATFORMS}
     out = {k: [] for k in PLATFORMS}
@@ -364,8 +384,19 @@ def main():
             out[kind].append(app_entry(cfg, versions))
             print(f"  {kind:9}-> {versions[0]['version']} ({versions[0]['size']/1e6:.0f} MB)")
 
+    slug_of = {c["bundleIdentifier"]: c["slug"] for c in apps}
+    bid_of = {c["slug"]: c["bundleIdentifier"] for c in apps}
     for kind in PLATFORMS:
-        write_source(kind, sources[kind], out[kind], news, here(f"apps-{kind}.json"))
+        # A featured id must actually be in THIS source, or it points at nothing.
+        present = {a["bundleIdentifier"] for a in out[kind]}
+        picks = [bid_of[s] for s in featured.get(kind, []) if bid_of[s] in present]
+        dropped = [s for s in featured.get(kind, []) if bid_of[s] not in present]
+        if dropped:
+            print(f"  featured.{kind}: skipped {', '.join(dropped)} "
+                  f"(not in the {kind} source)")
+        write_source(kind, sources[kind], out[kind], news, picks, here(f"apps-{kind}.json"))
+        if picks:
+            print(f"  featured.{kind}: {', '.join(slug_of[b] for b in picks)}")
 
     if problems:
         with open(PROBLEMS_FILE, "w") as f:
