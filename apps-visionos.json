@@ -74,9 +74,7 @@
       "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/dusklight.png",
       "tintColor": "#C9A227",
       "category": "games",
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/rebelancap/dusklight-ios/main/docs/screenshots/visionos-2d-title.jpg"
-      ],
+      "screenshotURLs": [],
       "versions": [
         {
           "version": "1.0.0",
