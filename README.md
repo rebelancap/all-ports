@@ -15,10 +15,20 @@ release of each port, so an app updates in SideStore as soon as you publish it.
 
 1. Drop a 1024×1024 icon at `assets/<slug>.png`.
 2. Copy `apps/_template.json` to `apps/<slug>.json` and fill it in.
+3. Add the slug to `order` in `sources.json` wherever you want it on the shelf.
 
-That's it — the filename is the slug, and the slug is how the icon is addressed, so
-the two can't drift apart. The next hourly run picks it up. A port with no GitHub
-release yet is reported and skipped; it appears on its own the day you ship one.
+The filename is the slug, and the slug is how the icon is addressed, so the two can't
+drift apart. The next hourly run picks it up. A port with no GitHub release yet is
+reported and skipped; it appears on its own the day you ship one. Skip step 3 and it
+still works — it just lands at the bottom until you place it.
+
+## Shelf order
+
+SideStore renders `apps` in array order, so the `order` list in `sources.json` is the
+shelf order — it is not sorted alphabetically at display time. One list controls both
+platforms; each source silently skips the ports it doesn't carry, keeping the rest in
+their relative positions. A slug with no matching config, or a duplicate, fails the
+build before any network call.
 
 ```jsonc
 {

@@ -1,4 +1,18 @@
 {
+  "order": [
+    "soh",
+    "2ship",
+    "starship",
+    "spaghettikart",
+    "ghostship",
+    "sm64coopdx",
+    "dusklight",
+    "vkquake",
+    "q2repro",
+    "quake3e",
+    "apotris",
+    "stratagus"
+  ],
   "ios": {
     "name": "rebelancap Ports — iPhone & iPad",
     "identifier": "com.rebelancap.allports.ios",

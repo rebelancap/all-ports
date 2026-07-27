@@ -93,8 +93,23 @@ def load_config():
             errs.append(f"apps/{slug}.json: bundleIdentifier '{bid}' already used by "
                         f"apps/{seen[bid]}.json — SideStore keys apps by bundle id")
         seen[bid] = slug
+
+    # SideStore renders "apps" in array order, so this list IS the shelf order.
+    # Anything unlisted sorts to the end alphabetically — adding a port never
+    # breaks the build, it just lands at the bottom until you place it.
+    order = sources.get("order", [])
+    known = {a["slug"] for a in apps}
+    for slug in order:
+        if slug not in known:
+            errs.append(f"sources.json: order lists '{slug}', which has no apps/{slug}.json")
+    if len(order) != len(set(order)):
+        errs.append("sources.json: order contains a duplicate slug")
+
     if errs:
         sys.exit("FATAL: bad config\n  " + "\n  ".join(errs))
+
+    rank = {slug: i for i, slug in enumerate(order)}
+    apps.sort(key=lambda c: (rank.get(c["slug"], len(order)), c["slug"]))
 
     news = []
     if os.path.exists(here("news.json")):
