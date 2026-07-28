@@ -124,6 +124,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.1.2",
+          "date": "2026-07-28T00:12:40Z",
+          "localizedDescription": "Multiplayer fix — the public lobby list works properly now.\n\n## What's new since 1.1.1\n- **The public lobby list no longer breaks after the first query.** Browsing lobbies would work once and then stop returning results until you relaunched. It now recovers on its own.\n- **Dropped connections are actually detected.** They previously never were, which is what left the lobby list wedged — the game kept waiting on a connection that was already gone.\n- **Lobby queries time out** instead of hanging indefinitely, and **Refresh no longer locks up permanently** when a query fails to start.\n- **Each install now has a stable network id.** iOS masks the hardware address, which had been collapsing every device's coopnet fingerprint to the same value.\n\nFolds in upstream's fix from LeoManrique/sm64coopdx-ios, including the coopnet library changes, which this port has to build from source for visionOS.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
+          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.1.2/sm64coopdx-1.1.2-visionOS.ipa",
+          "size": 11278936,
+          "minOSVersion": "2.0"
+        },
+        {
           "version": "1.1.1",
           "date": "2026-07-23T18:15:51Z",
           "localizedDescription": "Sharper, deeper 3D — this release is all about the world-locked stereoscopic 3D mode.\n\n## What's new since 1.0.0\n- **Foveated rendering** — the in-room 3D panel now renders eye-tracked variable-density, so it's as crisp as the flat 2D window and sharpest where you're looking. The softness the 3D panel used to have is gone, at no frame-rate cost.\n- **Deeper stereo depth** — the Stereo Depth slider reaches 1.5× further, for stronger hyper-stereo when you want it.\n- **Adaptive supersampling** — enlarging the 3D panel now automatically renders the game at higher resolution, so large panels stay crisp instead of pixelating.\n- **Reset** moved next to Done in the 3D settings.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
