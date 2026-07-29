@@ -22,24 +22,51 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # By name, not by github.sha: repository_dispatch pins the sha to whatever main
+      # pointed at when the event was created, which can predate a commit an earlier
+      # run has since pushed. Checking out the branch fetches the real head instead.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Regenerate source JSON
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 generate.py
 
+      # Losing a push race is not an error worth an email. Two runs still overlap despite
+      # the concurrency group above — a release that fires both "published" and "edited"
+      # dispatches the second before the first run has pushed, so the second starts from a
+      # stale base and gets rejected. generate.py is deterministic, so replaying our output
+      # onto whatever landed converges; usually it converges to "no changes at all".
       - name: Commit if changed
         run: |
-          if [ -n "$(git status --porcelain apps-ios.json apps-visionos.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            if [ -z "$(git status --porcelain apps-ios.json apps-visionos.json)" ]; then
+              echo "No changes."
+              exit 0
+            fi
             git add apps-ios.json apps-visionos.json
             git commit -m "chore: refresh SideStore sources"
-            git push
-          else
-            echo "No changes."
-          fi
+            if git push; then
+              exit 0
+            fi
+
+            echo "push rejected (attempt $attempt of 3) — replaying onto the new head"
+            # Deliberately not a rebase: both sides rewrote the same generated JSON, so a
+            # rebase conflicts every time. Keep our files, drop our commit, start again on
+            # the new head. Reset is safe because only these two files are ever generated.
+            cp apps-ios.json apps-visionos.json "$RUNNER_TEMP/"
+            git fetch origin main
+            git reset --hard FETCH_HEAD
+            cp "$RUNNER_TEMP/apps-ios.json" "$RUNNER_TEMP/apps-visionos.json" .
+          done
+
+          echo "::error::could not push after 3 attempts"
+          exit 1
 
       # Publish first, complain second: a port with a broken release still leaves the
       # sources valid and up to date for every other app, but the run goes red so the
