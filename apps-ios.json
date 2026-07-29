@@ -259,6 +259,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.1.9",
+          "date": "2026-07-29T03:53:04Z",
+          "localizedDescription": "### Pick up where you left off\n\nLeaving the app now saves your run, so a force-quit — or a reboot, or iOS\nevicting the app — no longer loses a long game. **Continue** appears at the top\nof the main menu on the next launch and puts you back exactly where you were:\nboard, active piece, hold, next queue, score, level, timer and grade progress.\n\nBackgrounding on its own never ended a run (the game just pauses in place), so\nthis only kicks in when the app actually stops running.\n\nOne slot, and it's cleared once you resume — a run you carried to a game over\ncan't be reloaded and re-rolled onto the leaderboards.\n\n### Also\n\n- README: the FAQ still claimed online multiplayer wasn't in the build. It has\n  been since 1.1.7 — Multi Battle, private rooms by code, up to 5 players.\n\n---\n\n**Install:** sideload the IPA with SideStore / AltStore (iOS) or\n[iloader](https://github.com/rebelancap/iloader/releases#release-visionos)\n(Apple Vision Pro). Requires iOS 17+ / visionOS 2+.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+          "downloadURL": "https://github.com/rebelancap/apotris-ios/releases/download/v1.1.9/Apotris-1.1.9-iOS.ipa",
+          "size": 5321496,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.1.8",
           "date": "2026-07-20T03:52:01Z",
           "localizedDescription": "A small follow-up to 1.1.7.\n\n## Fixed\n- **visionOS Settings** now describe the actual pinch gestures instead of the iOS touch wording. In menus, a **left-hand pinch is Back** (right-hand pinch confirms); gameplay lists the real pinch/chirality actions too. The gestures always worked — only the on-screen guide was wrong.\n\n## Install\nSideStore/AltStore: the source auto-updates to this version. Or sideload the IPAs below — dev-signed, so SideStore re-signs on install.",
