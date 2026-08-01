@@ -78,3 +78,52 @@ jobs:
             cat problems.txt
             exit 1
           fi
+
+      # ---- fan out to the per-family sources -------------------------------------
+      # Nothing outside a repo can watch that repo's release events, so every app repo
+      # dispatches HERE — one address they all already know. This step is the single
+      # place that knows which OTHER sources exist, so adding or renaming one is a
+      # one-line change here instead of an edit to a dozen app repos. (Before this
+      # existed, quake-ports and harbourmasters-ports were never poked at all: they only
+      # had their own cron, so a release could serve the PREVIOUS version to users for
+      # nearly an hour while every workflow involved reported success. Found 2026-08-01
+      # cutting q2repro 1.0.11.)
+      #
+      # Runs even if a step above failed — those sources regenerate independently of
+      # whether this one changed — but not on the schedule trigger, since they have
+      # their own cron for the quiet path.
+      #
+      # Needs a repo secret PORTS_FANOUT_DISPATCH: a fine-grained PAT with
+      # Contents: read & write on rebelancap/quake-ports AND
+      # rebelancap/harbourmasters-ports. Without it this step warns and succeeds.
+      - name: Fan out to the per-family sources
+        if: ${{ !cancelled() && github.event_name != 'schedule' }}
+        env:
+          TOKEN: ${{ secrets.PORTS_FANOUT_DISPATCH }}
+        run: |
+          if [ -z "${TOKEN:-}" ]; then
+            echo "::warning::PORTS_FANOUT_DISPATCH is not set — quake-ports and"
+            echo "::warning::harbourmasters-ports will pick this release up on their own"
+            echo "::warning::cron instead (up to 10 min lag). To wire it up: create a"
+            echo "::warning::fine-grained PAT with Contents: read & write on both, then"
+            echo "::warning::gh secret set PORTS_FANOUT_DISPATCH --repo rebelancap/all-ports"
+            exit 0
+          fi
+          rc=0
+          for repo in rebelancap/quake-ports rebelancap/harbourmasters-ports; do
+            if curl -fsS -X POST \
+                 -H "Accept: application/vnd.github+json" \
+                 -H "Authorization: Bearer $TOKEN" \
+                 "https://api.github.com/repos/$repo/dispatches" \
+                 -d '{"event_type":"app-released"}'; then
+              echo "dispatched app-released -> $repo"
+            else
+              echo "::error::Dispatch to $repo FAILED (token present but rejected — check"
+              echo "::error::that its repository access includes $repo, Contents: read &"
+              echo "::error::write). Users keep seeing the previous version until that"
+              echo "::error::source's cron runs. Manual fix:"
+              echo "::error::  gh workflow run build-sources.yml --repo $repo"
+              rc=1
+            fi
+          done
+          exit $rc
