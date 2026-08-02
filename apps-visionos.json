@@ -92,6 +92,27 @@
       ]
     },
     {
+      "name": "Lighthouse",
+      "bundleIdentifier": "com.rebelancap.lighthouse",
+      "developerName": "rebelancap",
+      "subtitle": "A HarbourMasters N64 port for iPhone & Vision Pro",
+      "localizedDescription": "The Lighthouse port of Banjo-Kazooie, running natively on Metal, with the randomizer, online co-op, ROM-hack support and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/lighthouse.png",
+      "tintColor": "#2A4A8C",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-02T04:29:40Z",
+          "localizedDescription": "First public release of Lighthouse for iPhone and Apple Vision Pro — an iOS/visionOS port of [Lighthouse](https://github.com/HarbourMasters/Lighthouse), Harbour Masters' native Banjo-Kazooie port, rendering natively on **Metal** with no translation layer.\n\nThe app ships **no game content**. You supply your own Banjo-Kazooie ROM, and the app extracts it on the device — no PC tools, no companion app.\n\n## Install\n\nAdd the SideStore source and the app auto-updates as new versions ship:\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually through SideStore/AltStore (iPhone can also use Sideloadly).\n\n## What's in it\n\n- The full adventure — every world, with saves, audio, music and cutscenes\n- The **Lighthouse enhancements menu** — higher frame rates, widescreen, and the quality-of-life catalogue\n- The **randomizer** and **online co-op (Anchor)**\n- **ROM-hack support** — extract a Banjo's Backpack hack on the device and it installs as a mod overlay\n- **In-app ROM extraction** — Torch compiled in, runs in-process\n- **Game controllers** with menu-aware navigation, and touch controls built for an N64 platformer: floating analog stick, the four C-buttons, Z with an optional double-tap hold, and a layout customizer with per-button hide/show\n- **Hold A to fast-forward dialog**\n- **60 / 120 Hz** (ProMotion) and a supersampling slider\n- Texture packs and other `.o2r` mods via drag-and-drop in Files\n- **Apple Vision Pro:** a freely resizable 2D window rendering at true 4K, plus a **stereoscopic 3D mode** — the game on a world-locked panel in your room, with foveated rendering, spatial audio anchored to the screen, and live-tunable depth, size, distance and height\n\n## Requirements\n\n- iPhone on **iOS 15+**, or **Apple Vision Pro** (visionOS 2+)\n- Your own Banjo-Kazooie ROM (`.z64`) — US v1.0, US v1.1, Japan or PAL\n- SideStore, installed with [iloader](https://github.com/nab138/iloader) (Vision Pro needs the [visionOS fork](https://github.com/rebelancap/iloader/releases#release-visionos) and an Apple Silicon Mac)\n\n## Notes\n\n- ROM hacks are **extended ROMs** (larger than a 16 MB retail dump) and are built against **US v1.0** — extraction works from any base, but playing a hack correctly needs a `bk.o2r` made from a US v1.0 ROM. The app tells you if your base is the wrong version.\n- Banjo-Kazooie's model textures are currently bundled into the model data rather than addressed individually, so texture packs reach less of the world than the equivalent packs do in the other ports. That's an upstream limitation.\n\nBANJO-KAZOOIE © Nintendo / Rare. Not affiliated with or endorsed by Nintendo or Rare.",
+          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.0/lighthouse-1.0.0-visionOS.ipa",
+          "size": 7538895,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
       "name": "Starship",
       "bundleIdentifier": "com.rebelancap.starship",
       "developerName": "rebelancap",

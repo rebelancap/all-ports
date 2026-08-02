@@ -1,0 +1,16 @@
+{
+  "name": "Lighthouse",
+  "bundleIdentifier": "com.rebelancap.lighthouse",
+  "repo": "rebelancap/Lighthouse-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "A HarbourMasters N64 port for iPhone & Vision Pro",
+  "localizedDescription": "The Lighthouse port of Banjo-Kazooie, running natively on Metal, with the randomizer, online co-op, ROM-hack support and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own ROM and the app extracts it on device.",
+  "tintColor": "#2A4A8C",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "2.0",
+  "screenshotURLs": []
+}
