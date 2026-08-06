@@ -19,6 +19,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:43Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.0.1/soh-1.0.1-iOS.ipa",
+          "size": 27479600,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-07-26T01:50:50Z",
           "localizedDescription": "First public release of Ship of Harkinian (The Legend of Zelda: Ocarina of Time) for iPhone and Apple Vision Pro — a native Metal port.\n\n**Features**\n- Full quest with saves, audio and music, and cutscenes\n- The Ship of Harkinian enhancements menu (higher frame rates, widescreen, quality-of-life toggles)\n- In-app ROM extraction — no PC tools needed\n- Game controllers with menu-aware navigation, plus a tunable on-screen touch layout (including per-button hide/show)\n- 60 / 120 Hz (ProMotion) and a supersampling slider\n- Texture-pack (`.o2r`) support via drag-and-drop in Files\n- **Apple Vision Pro:** a true-4K windowed mode plus a world-locked **stereoscopic 3D mode** with foveated rendering and spatial audio\n\n**Install:** add the SideStore source and install — see the [README](https://github.com/rebelancap/Shipwright-ios#install). Bring your own Ocarina of Time ROM; no game content is included.",
@@ -39,6 +47,14 @@
       "category": "games",
       "screenshotURLs": [],
       "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:46Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.0.1/2ship-1.0.1-iOS.ipa",
+          "size": 16339705,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.0.0",
           "date": "2026-07-26T14:55:28Z",
@@ -61,6 +77,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:53Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.1/spaghettikart-1.0.1-iOS.ipa",
+          "size": 7997996,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-07-26T14:55:30Z",
           "localizedDescription": "First public release of SpaghettiKart (Mario Kart 64) for iPhone and Apple Vision Pro — a native Metal port. Grand Prix, Time Trials and VS with saves, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Mario Kart 64 ROM; no game content included.",
@@ -82,6 +106,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:56Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.1/ghostship-1.0.1-iOS.ipa",
+          "size": 5967990,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-07-26T16:17:18Z",
           "localizedDescription": "First public release of Ghostship for iPhone and Apple Vision Pro — a native Metal N64 port. The full game with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own ROM; no game content included.",
@@ -102,6 +134,14 @@
       "category": "games",
       "screenshotURLs": [],
       "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T07:19:59Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.2/lighthouse-1.0.2-iOS.ipa",
+          "size": 5455621,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.0.1",
           "date": "2026-08-05T19:41:04Z",
@@ -131,6 +171,14 @@
       "category": "games",
       "screenshotURLs": [],
       "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:50Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.1/starship-1.0.1-iOS.ipa",
+          "size": 4074525,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "1.0.0",
           "date": "2026-07-26T17:04:12Z",
