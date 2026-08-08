@@ -1,18 +1,19 @@
 {
+  "_order_comment": "Grouped by family, not interleaved: Quakes (chronological), then the HarbourMasters N64 ports (the two Zeldas first, the rest by original release), then the one-offs, with Apotris deliberately last on both platforms. Note this list doubles as the shop window — with no `featured` block, AltStore/SideStore fall back to the apps array and stock clients still cap the source page at the first 5, so the leading five here (three Quakes + the two Zeldas) are all a stock-client user sees without tapping through.",
   "order": [
-    "soh",
-    "2ship",
-    "spaghettikart",
-    "ghostship",
-    "lighthouse",
-    "starship",
-    "sm64coopdx",
-    "dusklight",
     "vkquake",
     "q2repro",
     "quake3e",
-    "apotris",
-    "stratagus"
+    "soh",
+    "2ship",
+    "spaghettikart",
+    "starship",
+    "lighthouse",
+    "ghostship",
+    "sm64coopdx",
+    "dusklight",
+    "stratagus",
+    "apotris"
   ],
   "ios": {
     "name": "rebelancap Ports \u2014 iPhone & iPad",
@@ -31,21 +32,5 @@
     "website": "https://github.com/rebelancap/all-ports",
     "tintColor": "#4C5C96",
     "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/source-icon.png"
-  },
-  "featured": {
-    "visionos": [
-      "soh",
-      "vkquake",
-      "dusklight",
-      "sm64coopdx",
-      "apotris"
-    ],
-    "ios": [
-      "soh",
-      "vkquake",
-      "spaghettikart",
-      "apotris",
-      "stratagus"
-    ]
   }
 }

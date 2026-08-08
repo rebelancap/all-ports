@@ -8,238 +8,6 @@
   "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/source-icon.png",
   "apps": [
     {
-      "name": "Ship of Harkinian",
-      "bundleIdentifier": "com.rebelancap.soh",
-      "developerName": "rebelancap",
-      "subtitle": "Ocarina of Time for iPhone & Vision Pro",
-      "localizedDescription": "The Ship of Harkinian port of The Legend of Zelda: Ocarina of Time, running natively on Metal — the full quest with saves, the enhancements menu, texture-pack support, and on Apple Vision Pro a stereoscopic 3D mode. Ships with no game content: you supply your own Ocarina of Time ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/soh.png",
-      "tintColor": "#606A94",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T07:19:43Z",
-          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
-          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.0.1/soh-1.0.1-visionOS.ipa",
-          "size": 30080819,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-07-26T01:50:50Z",
-          "localizedDescription": "First public release of Ship of Harkinian (The Legend of Zelda: Ocarina of Time) for iPhone and Apple Vision Pro — a native Metal port.\n\n**Features**\n- Full quest with saves, audio and music, and cutscenes\n- The Ship of Harkinian enhancements menu (higher frame rates, widescreen, quality-of-life toggles)\n- In-app ROM extraction — no PC tools needed\n- Game controllers with menu-aware navigation, plus a tunable on-screen touch layout (including per-button hide/show)\n- 60 / 120 Hz (ProMotion) and a supersampling slider\n- Texture-pack (`.o2r`) support via drag-and-drop in Files\n- **Apple Vision Pro:** a true-4K windowed mode plus a world-locked **stereoscopic 3D mode** with foveated rendering and spatial audio\n\n**Install:** add the SideStore source and install — see the [README](https://github.com/rebelancap/Shipwright-ios#install). Bring your own Ocarina of Time ROM; no game content is included.",
-          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.0.0/soh-1.0.0-visionOS.ipa",
-          "size": 28081830,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "2 Ship 2 Harkinian",
-      "bundleIdentifier": "com.rebelancap.2ship",
-      "developerName": "rebelancap",
-      "subtitle": "Majora's Mask for iPhone & Vision Pro",
-      "localizedDescription": "The 2 Ship 2 Harkinian port of The Legend of Zelda: Majora's Mask, running natively on Metal, with the enhancements menu, texture-pack support, and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Majora's Mask ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/2ship.png",
-      "tintColor": "#3E7A4E",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T07:19:46Z",
-          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
-          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.0.1/2ship-1.0.1-visionOS.ipa",
-          "size": 20466470,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-07-26T14:55:28Z",
-          "localizedDescription": "First public release of 2 Ship 2 Harkinian (The Legend of Zelda: Majora's Mask) for iPhone and Apple Vision Pro — a native Metal port. Full quest with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, texture-pack support, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Majora's Mask ROM; no game content included.",
-          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.0.0/2ship-1.0.0-visionOS.ipa",
-          "size": 16008208,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "SpaghettiKart",
-      "bundleIdentifier": "com.rebelancap.spaghettikart",
-      "developerName": "rebelancap",
-      "subtitle": "Mario Kart 64 for iPhone & Vision Pro",
-      "localizedDescription": "The SpaghettiKart port of Mario Kart 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Mario Kart 64 ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/spaghettikart.png",
-      "tintColor": "#C4342B",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T07:19:53Z",
-          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
-          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.1/spaghettikart-1.0.1-visionOS.ipa",
-          "size": 10491161,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-07-26T14:55:30Z",
-          "localizedDescription": "First public release of SpaghettiKart (Mario Kart 64) for iPhone and Apple Vision Pro — a native Metal port. Grand Prix, Time Trials and VS with saves, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Mario Kart 64 ROM; no game content included.",
-          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.0/spaghettikart-1.0.0-visionOS.ipa",
-          "size": 9163958,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "Ghostship",
-      "bundleIdentifier": "com.rebelancap.ghostship",
-      "developerName": "rebelancap",
-      "subtitle": "A HarbourMasters N64 port for iPhone & Vision Pro",
-      "localizedDescription": "The Ghostship port, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/ghostship.png",
-      "tintColor": "#6A5ACD",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T07:19:56Z",
-          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
-          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.1/ghostship-1.0.1-visionOS.ipa",
-          "size": 8933933,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-07-26T16:17:18Z",
-          "localizedDescription": "First public release of Ghostship for iPhone and Apple Vision Pro — a native Metal N64 port. The full game with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own ROM; no game content included.",
-          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.0/ghostship-1.0.0-visionOS.ipa",
-          "size": 8933006,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "Lighthouse",
-      "bundleIdentifier": "com.rebelancap.lighthouse",
-      "developerName": "rebelancap",
-      "subtitle": "A HarbourMasters N64 port for iPhone & Vision Pro",
-      "localizedDescription": "The Lighthouse port of Banjo-Kazooie, running natively on Metal, with the randomizer, online co-op, ROM-hack support and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/lighthouse.png",
-      "tintColor": "#2A4A8C",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.2",
-          "date": "2026-08-06T07:19:59Z",
-          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
-          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.2/lighthouse-1.0.2-visionOS.ipa",
-          "size": 7607131,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-08-05T19:41:04Z",
-          "localizedDescription": "Folds in **upstream Lighthouse 1.0.2** — 55 commits of fixes and features from Harbour Masters — and re-bases the iOS/visionOS overlay onto it.\n\n## What upstream brings\n\n- **Randomizer:** a spoiler-log generation option\n- **ROM hacks:** a batch of fixes to hack loading and behaviour\n- **Online co-op (Anchor):** player colour customization and nametags, plus remote clients now react live to puzzle completion\n- **Gameplay fixes:** Gobi and Trunker reverting after a death reload, Grunty's Lair gate not rising after collection, note retention during parades, presents using the wrong level flag, a stack overflow in Furnace Fun, the input viewer, and more\n- **Language packs:** no longer shadow HD assets they don't localize\n\n## Heads up: the default volume changed\n\nUpstream lowered the **default master volume from 100 to 40**. If this build sounds quieter than 1.0.0, that's why — turn it up in Settings → Audio. Nothing on the iOS side changed about audio output.\n\nYour extracted `bk.o2r` stays valid — no re-extraction needed.\n\n## On the iOS side\n\nThe overlay is now 45 patches, down from 46: the `argv[argc]` null-dereference fix (a crash on any argument-bearing launch) was **retired** because upstream fixed it independently.\n\nOne patch needed real work. Upstream moved the audio-init call into the engine constructor, which left the port's audio-rate helper defined *below* its only caller. Every overlay integrity check still passed — the patch applied, reversed and regenerated cleanly — while the tree no longer compiled. A good reminder that the drill is not a build.\n\n## Install\n\nAdd the SideStore source and the app auto-updates as new versions ship:\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually through SideStore/AltStore (iPhone can also use Sideloadly).\n\n## Requirements\n\n- iPhone on **iOS 15+**, or **Apple Vision Pro** (visionOS 2+)\n- Your own Banjo-Kazooie ROM (`.z64`) — US v1.0, US v1.1, Japan or PAL\n\nThe app ships **no game content**.",
-          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.1/lighthouse-1.0.1-visionOS.ipa",
-          "size": 7604182,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-08-02T04:29:40Z",
-          "localizedDescription": "First public release of Lighthouse for iPhone and Apple Vision Pro — an iOS/visionOS port of [Lighthouse](https://github.com/HarbourMasters/Lighthouse), Harbour Masters' native Banjo-Kazooie port, rendering natively on **Metal** with no translation layer.\n\nThe app ships **no game content**. You supply your own Banjo-Kazooie ROM, and the app extracts it on the device — no PC tools, no companion app.\n\n## Install\n\nAdd the SideStore source and the app auto-updates as new versions ship:\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually through SideStore/AltStore (iPhone can also use Sideloadly).\n\n## What's in it\n\n- The full adventure — every world, with saves, audio, music and cutscenes\n- The **Lighthouse enhancements menu** — higher frame rates, widescreen, and the quality-of-life catalogue\n- The **randomizer** and **online co-op (Anchor)**\n- **ROM-hack support** — extract a Banjo's Backpack hack on the device and it installs as a mod overlay\n- **In-app ROM extraction** — Torch compiled in, runs in-process\n- **Game controllers** with menu-aware navigation, and touch controls built for an N64 platformer: floating analog stick, the four C-buttons, Z with an optional double-tap hold, and a layout customizer with per-button hide/show\n- **Hold A to fast-forward dialog**\n- **60 / 120 Hz** (ProMotion) and a supersampling slider\n- Texture packs and other `.o2r` mods via drag-and-drop in Files\n- **Apple Vision Pro:** a freely resizable 2D window rendering at true 4K, plus a **stereoscopic 3D mode** — the game on a world-locked panel in your room, with foveated rendering, spatial audio anchored to the screen, and live-tunable depth, size, distance and height\n\n## Requirements\n\n- iPhone on **iOS 15+**, or **Apple Vision Pro** (visionOS 2+)\n- Your own Banjo-Kazooie ROM (`.z64`) — US v1.0, US v1.1, Japan or PAL\n- SideStore, installed with [iloader](https://github.com/nab138/iloader) (Vision Pro needs the [visionOS fork](https://github.com/rebelancap/iloader/releases#release-visionos) and an Apple Silicon Mac)\n\n## Notes\n\n- ROM hacks are **extended ROMs** (larger than a 16 MB retail dump) and are built against **US v1.0** — extraction works from any base, but playing a hack correctly needs a `bk.o2r` made from a US v1.0 ROM. The app tells you if your base is the wrong version.\n- Banjo-Kazooie's model textures are currently bundled into the model data rather than addressed individually, so texture packs reach less of the world than the equivalent packs do in the other ports. That's an upstream limitation.\n\nBANJO-KAZOOIE © Nintendo / Rare. Not affiliated with or endorsed by Nintendo or Rare.",
-          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.0/lighthouse-1.0.0-visionOS.ipa",
-          "size": 7538895,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "Starship",
-      "bundleIdentifier": "com.rebelancap.starship",
-      "developerName": "rebelancap",
-      "subtitle": "Star Fox 64 for iPhone & Vision Pro",
-      "localizedDescription": "The Starship port of Star Fox 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Star Fox 64 ROM and the app extracts it on device.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/starship.png",
-      "tintColor": "#2E5C8A",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T07:19:50Z",
-          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
-          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.1/starship-1.0.1-visionOS.ipa",
-          "size": 5302179,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-07-26T17:04:12Z",
-          "localizedDescription": "First public release of Starship (Star Fox 64) for iPhone and Apple Vision Pro — a native Metal port. The full campaign with saves and branching routes, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Star Fox 64 ROM; no game content included.",
-          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.0/starship-1.0.0-visionOS.ipa",
-          "size": 5298721,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "Super Mario 64 Co-op Deluxe",
-      "bundleIdentifier": "com.rebelancap.sm64coopdx",
-      "developerName": "rebelancap",
-      "subtitle": "Super Mario 64 Co-op Deluxe for Apple Vision Pro",
-      "localizedDescription": "Super Mario 64 Co-op Deluxe on Apple Vision Pro: the full game rendered natively on Metal, online co-op over CoopNet, and a world-locked stereoscopic 3D mode with live-tunable screen size, distance, depth, and focus. Ships with no game content; you supply your own Super Mario 64 (US) ROM.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/sm64coopdx.png",
-      "tintColor": "#E60012",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.1.2",
-          "date": "2026-07-28T00:12:40Z",
-          "localizedDescription": "Multiplayer fix — the public lobby list works properly now.\n\n## What's new since 1.1.1\n- **The public lobby list no longer breaks after the first query.** Browsing lobbies would work once and then stop returning results until you relaunched. It now recovers on its own.\n- **Dropped connections are actually detected.** They previously never were, which is what left the lobby list wedged — the game kept waiting on a connection that was already gone.\n- **Lobby queries time out** instead of hanging indefinitely, and **Refresh no longer locks up permanently** when a query fails to start.\n- **Each install now has a stable network id.** iOS masks the hardware address, which had been collapsing every device's coopnet fingerprint to the same value.\n\nFolds in upstream's fix from LeoManrique/sm64coopdx-ios, including the coopnet library changes, which this port has to build from source for visionOS.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
-          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.1.2/sm64coopdx-1.1.2-visionOS.ipa",
-          "size": 11278936,
-          "minOSVersion": "2.0"
-        },
-        {
-          "version": "1.1.1",
-          "date": "2026-07-23T18:15:51Z",
-          "localizedDescription": "Sharper, deeper 3D — this release is all about the world-locked stereoscopic 3D mode.\n\n## What's new since 1.0.0\n- **Foveated rendering** — the in-room 3D panel now renders eye-tracked variable-density, so it's as crisp as the flat 2D window and sharpest where you're looking. The softness the 3D panel used to have is gone, at no frame-rate cost.\n- **Deeper stereo depth** — the Stereo Depth slider reaches 1.5× further, for stronger hyper-stereo when you want it.\n- **Adaptive supersampling** — enlarging the 3D panel now automatically renders the game at higher resolution, so large panels stay crisp instead of pixelating.\n- **Reset** moved next to Done in the 3D settings.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
-          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.1.1/sm64coopdx-1.1.1-visionOS.ipa",
-          "size": 11278955,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
-      "name": "Dusklight",
-      "bundleIdentifier": "com.rebelancap.dusklight",
-      "developerName": "rebelancap",
-      "subtitle": "The Legend of Zelda: Twilight Princess for Apple Vision Pro",
-      "localizedDescription": "The Legend of Zelda: Twilight Princess on Apple Vision Pro: the full GameCube game rendered natively on Metal, in a free-floating 2D window and a world-locked stereoscopic 3D mode with foveated rendering, spatial audio anchored to the screen, and live-tunable screen size, distance, and depth. Ships with no game content; you supply your own GameCube Twilight Princess disc image.",
-      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/dusklight.png",
-      "tintColor": "#C9A227",
-      "category": "games",
-      "screenshotURLs": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "date": "2026-07-25T06:05:44Z",
-          "localizedDescription": "**Dusklight for Apple Vision Pro** — The Legend of Zelda: Twilight Princess, rendered natively on **Metal** (no emulator, no translation layer), including a world-locked **stereoscopic 3D mode**.\n\nShips with **no game content** — you supply your own **GameCube Twilight Princess disc image** (US `GZ2E01` or European/PAL `GZ2P01`, as `.iso` or `.rvz`). Drop it in via Files at first launch; it's read in place and never leaves your device.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) and it installs *and updates itself* when new versions ship:\n\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/dusklight-ios/main/sidestore/apps-visionos.json`\n\nFirst install SideStore onto the headset with my [iloader fork](https://github.com/rebelancap/iloader/releases#release-visionos) (runs on an Apple Silicon Mac, pairs over Wi-Fi — no cable, no Dev Strap), then add the source.\n\n### Or download and sideload manually\n- **`dusklight-1.0.0-visionOS.ipa`** — Apple Vision Pro (visionOS 2+), 2D + 3D in one app\n\n### What's in it\n- The **full Twilight Princess**, rendered natively on Metal (GX → aurora → Dawn/WebGPU → Metal), with GameCube memory-card saves\n- **Runtime disc loading** — the disc image is read in place; no PC tools, no extraction\n- **Game controllers**, and **60 / 90 / 120 Hz** (auto-detects your headset's panel)\n- A **free-resizing 2D window** at high resolution\n- **Stereoscopic 3D mode** — the game on a world-locked panel floating in your room, with **foveated rendering** (as crisp as the flat 2D window, sharpest where you look), **spatial audio anchored to the screen**, and live-tunable **stereo depth**, **screen size / distance / height** (any aspect renders true widescreen FOV, no stretching), **surroundings dimming**, and Digital Crown **recenter**\n- **Dolphin-format HD/4K texture packs** via drag-and-drop in Files\n\nFull instructions in the [README](https://github.com/rebelancap/dusklight-ios#readme).\n\nTHE LEGEND OF ZELDA: TWILIGHT PRINCESS © Nintendo. This project is not affiliated with or endorsed by Nintendo and ships no Nintendo content; you supply your own disc.",
-          "downloadURL": "https://github.com/rebelancap/dusklight-ios/releases/download/v1.0.0/dusklight-1.0.0-visionOS.ipa",
-          "size": 22194107,
-          "minOSVersion": "2.0"
-        }
-      ]
-    },
-    {
       "name": "Quake",
       "bundleIdentifier": "com.rebelancap.vkquake",
       "developerName": "rebelancap",
@@ -447,6 +215,238 @@
       ]
     },
     {
+      "name": "Ship of Harkinian",
+      "bundleIdentifier": "com.rebelancap.soh",
+      "developerName": "rebelancap",
+      "subtitle": "Ocarina of Time for iPhone & Vision Pro",
+      "localizedDescription": "The Ship of Harkinian port of The Legend of Zelda: Ocarina of Time, running natively on Metal — the full quest with saves, the enhancements menu, texture-pack support, and on Apple Vision Pro a stereoscopic 3D mode. Ships with no game content: you supply your own Ocarina of Time ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/soh.png",
+      "tintColor": "#606A94",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:43Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.0.1/soh-1.0.1-visionOS.ipa",
+          "size": 30080819,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T01:50:50Z",
+          "localizedDescription": "First public release of Ship of Harkinian (The Legend of Zelda: Ocarina of Time) for iPhone and Apple Vision Pro — a native Metal port.\n\n**Features**\n- Full quest with saves, audio and music, and cutscenes\n- The Ship of Harkinian enhancements menu (higher frame rates, widescreen, quality-of-life toggles)\n- In-app ROM extraction — no PC tools needed\n- Game controllers with menu-aware navigation, plus a tunable on-screen touch layout (including per-button hide/show)\n- 60 / 120 Hz (ProMotion) and a supersampling slider\n- Texture-pack (`.o2r`) support via drag-and-drop in Files\n- **Apple Vision Pro:** a true-4K windowed mode plus a world-locked **stereoscopic 3D mode** with foveated rendering and spatial audio\n\n**Install:** add the SideStore source and install — see the [README](https://github.com/rebelancap/Shipwright-ios#install). Bring your own Ocarina of Time ROM; no game content is included.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.0.0/soh-1.0.0-visionOS.ipa",
+          "size": 28081830,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "2 Ship 2 Harkinian",
+      "bundleIdentifier": "com.rebelancap.2ship",
+      "developerName": "rebelancap",
+      "subtitle": "Majora's Mask for iPhone & Vision Pro",
+      "localizedDescription": "The 2 Ship 2 Harkinian port of The Legend of Zelda: Majora's Mask, running natively on Metal, with the enhancements menu, texture-pack support, and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Majora's Mask ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/2ship.png",
+      "tintColor": "#3E7A4E",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:46Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.0.1/2ship-1.0.1-visionOS.ipa",
+          "size": 20466470,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T14:55:28Z",
+          "localizedDescription": "First public release of 2 Ship 2 Harkinian (The Legend of Zelda: Majora's Mask) for iPhone and Apple Vision Pro — a native Metal port. Full quest with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, texture-pack support, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Majora's Mask ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.0.0/2ship-1.0.0-visionOS.ipa",
+          "size": 16008208,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "SpaghettiKart",
+      "bundleIdentifier": "com.rebelancap.spaghettikart",
+      "developerName": "rebelancap",
+      "subtitle": "Mario Kart 64 for iPhone & Vision Pro",
+      "localizedDescription": "The SpaghettiKart port of Mario Kart 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Mario Kart 64 ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/spaghettikart.png",
+      "tintColor": "#C4342B",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:53Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.1/spaghettikart-1.0.1-visionOS.ipa",
+          "size": 10491161,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T14:55:30Z",
+          "localizedDescription": "First public release of SpaghettiKart (Mario Kart 64) for iPhone and Apple Vision Pro — a native Metal port. Grand Prix, Time Trials and VS with saves, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Mario Kart 64 ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.0/spaghettikart-1.0.0-visionOS.ipa",
+          "size": 9163958,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "Starship",
+      "bundleIdentifier": "com.rebelancap.starship",
+      "developerName": "rebelancap",
+      "subtitle": "Star Fox 64 for iPhone & Vision Pro",
+      "localizedDescription": "The Starship port of Star Fox 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Star Fox 64 ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/starship.png",
+      "tintColor": "#2E5C8A",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:50Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.1/starship-1.0.1-visionOS.ipa",
+          "size": 5302179,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T17:04:12Z",
+          "localizedDescription": "First public release of Starship (Star Fox 64) for iPhone and Apple Vision Pro — a native Metal port. The full campaign with saves and branching routes, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own Star Fox 64 ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/Starship-ios/releases/download/v1.0.0/starship-1.0.0-visionOS.ipa",
+          "size": 5298721,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "Lighthouse",
+      "bundleIdentifier": "com.rebelancap.lighthouse",
+      "developerName": "rebelancap",
+      "subtitle": "Banjo-Kazooie for iPhone & Vision Pro",
+      "localizedDescription": "The Lighthouse port of Banjo-Kazooie, running natively on Metal, with the randomizer, online co-op, ROM-hack support and an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Banjo-Kazooie ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/lighthouse.png",
+      "tintColor": "#2A4A8C",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T07:19:59Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.2/lighthouse-1.0.2-visionOS.ipa",
+          "size": 7607131,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-05T19:41:04Z",
+          "localizedDescription": "Folds in **upstream Lighthouse 1.0.2** — 55 commits of fixes and features from Harbour Masters — and re-bases the iOS/visionOS overlay onto it.\n\n## What upstream brings\n\n- **Randomizer:** a spoiler-log generation option\n- **ROM hacks:** a batch of fixes to hack loading and behaviour\n- **Online co-op (Anchor):** player colour customization and nametags, plus remote clients now react live to puzzle completion\n- **Gameplay fixes:** Gobi and Trunker reverting after a death reload, Grunty's Lair gate not rising after collection, note retention during parades, presents using the wrong level flag, a stack overflow in Furnace Fun, the input viewer, and more\n- **Language packs:** no longer shadow HD assets they don't localize\n\n## Heads up: the default volume changed\n\nUpstream lowered the **default master volume from 100 to 40**. If this build sounds quieter than 1.0.0, that's why — turn it up in Settings → Audio. Nothing on the iOS side changed about audio output.\n\nYour extracted `bk.o2r` stays valid — no re-extraction needed.\n\n## On the iOS side\n\nThe overlay is now 45 patches, down from 46: the `argv[argc]` null-dereference fix (a crash on any argument-bearing launch) was **retired** because upstream fixed it independently.\n\nOne patch needed real work. Upstream moved the audio-init call into the engine constructor, which left the port's audio-rate helper defined *below* its only caller. Every overlay integrity check still passed — the patch applied, reversed and regenerated cleanly — while the tree no longer compiled. A good reminder that the drill is not a build.\n\n## Install\n\nAdd the SideStore source and the app auto-updates as new versions ship:\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually through SideStore/AltStore (iPhone can also use Sideloadly).\n\n## Requirements\n\n- iPhone on **iOS 15+**, or **Apple Vision Pro** (visionOS 2+)\n- Your own Banjo-Kazooie ROM (`.z64`) — US v1.0, US v1.1, Japan or PAL\n\nThe app ships **no game content**.",
+          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.1/lighthouse-1.0.1-visionOS.ipa",
+          "size": 7604182,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-08-02T04:29:40Z",
+          "localizedDescription": "First public release of Lighthouse for iPhone and Apple Vision Pro — an iOS/visionOS port of [Lighthouse](https://github.com/HarbourMasters/Lighthouse), Harbour Masters' native Banjo-Kazooie port, rendering natively on **Metal** with no translation layer.\n\nThe app ships **no game content**. You supply your own Banjo-Kazooie ROM, and the app extracts it on the device — no PC tools, no companion app.\n\n## Install\n\nAdd the SideStore source and the app auto-updates as new versions ship:\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/harbourmasters-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually through SideStore/AltStore (iPhone can also use Sideloadly).\n\n## What's in it\n\n- The full adventure — every world, with saves, audio, music and cutscenes\n- The **Lighthouse enhancements menu** — higher frame rates, widescreen, and the quality-of-life catalogue\n- The **randomizer** and **online co-op (Anchor)**\n- **ROM-hack support** — extract a Banjo's Backpack hack on the device and it installs as a mod overlay\n- **In-app ROM extraction** — Torch compiled in, runs in-process\n- **Game controllers** with menu-aware navigation, and touch controls built for an N64 platformer: floating analog stick, the four C-buttons, Z with an optional double-tap hold, and a layout customizer with per-button hide/show\n- **Hold A to fast-forward dialog**\n- **60 / 120 Hz** (ProMotion) and a supersampling slider\n- Texture packs and other `.o2r` mods via drag-and-drop in Files\n- **Apple Vision Pro:** a freely resizable 2D window rendering at true 4K, plus a **stereoscopic 3D mode** — the game on a world-locked panel in your room, with foveated rendering, spatial audio anchored to the screen, and live-tunable depth, size, distance and height\n\n## Requirements\n\n- iPhone on **iOS 15+**, or **Apple Vision Pro** (visionOS 2+)\n- Your own Banjo-Kazooie ROM (`.z64`) — US v1.0, US v1.1, Japan or PAL\n- SideStore, installed with [iloader](https://github.com/nab138/iloader) (Vision Pro needs the [visionOS fork](https://github.com/rebelancap/iloader/releases#release-visionos) and an Apple Silicon Mac)\n\n## Notes\n\n- ROM hacks are **extended ROMs** (larger than a 16 MB retail dump) and are built against **US v1.0** — extraction works from any base, but playing a hack correctly needs a `bk.o2r` made from a US v1.0 ROM. The app tells you if your base is the wrong version.\n- Banjo-Kazooie's model textures are currently bundled into the model data rather than addressed individually, so texture packs reach less of the world than the equivalent packs do in the other ports. That's an upstream limitation.\n\nBANJO-KAZOOIE © Nintendo / Rare. Not affiliated with or endorsed by Nintendo or Rare.",
+          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.0.0/lighthouse-1.0.0-visionOS.ipa",
+          "size": 7538895,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "Ghostship",
+      "bundleIdentifier": "com.rebelancap.ghostship",
+      "developerName": "rebelancap",
+      "subtitle": "Super Mario 64 for iPhone & Vision Pro",
+      "localizedDescription": "The Ghostship port of Super Mario 64, running natively on Metal, with an Apple Vision Pro stereoscopic 3D mode. Ships with no game content: you supply your own Super Mario 64 (US) ROM and the app extracts it on device.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/ghostship.png",
+      "tintColor": "#6A5ACD",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:56Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.1/ghostship-1.0.1-visionOS.ipa",
+          "size": 8933933,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-26T16:17:18Z",
+          "localizedDescription": "First public release of Ghostship for iPhone and Apple Vision Pro — a native Metal N64 port. The full game with saves, the enhancements menu, in-app ROM extraction, game controllers + a tunable touch layout, 60/120 Hz, and on Vision Pro a stereoscopic 3D mode. Install via SideStore (see the README). Bring your own ROM; no game content included.",
+          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.0/ghostship-1.0.0-visionOS.ipa",
+          "size": 8933006,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 64 Co-op DX",
+      "bundleIdentifier": "com.rebelancap.sm64coopdx",
+      "developerName": "rebelancap",
+      "subtitle": "Super Mario 64 Co-op DX for Apple Vision Pro",
+      "localizedDescription": "Super Mario 64 Co-op DX on Apple Vision Pro: the full game rendered natively on Metal, online co-op over CoopNet, and a world-locked stereoscopic 3D mode with live-tunable screen size, distance, depth, and focus. Ships with no game content; you supply your own Super Mario 64 (US) ROM.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/sm64coopdx.png",
+      "tintColor": "#E60012",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.1.2",
+          "date": "2026-07-28T00:12:40Z",
+          "localizedDescription": "Multiplayer fix — the public lobby list works properly now.\n\n## What's new since 1.1.1\n- **The public lobby list no longer breaks after the first query.** Browsing lobbies would work once and then stop returning results until you relaunched. It now recovers on its own.\n- **Dropped connections are actually detected.** They previously never were, which is what left the lobby list wedged — the game kept waiting on a connection that was already gone.\n- **Lobby queries time out** instead of hanging indefinitely, and **Refresh no longer locks up permanently** when a query fails to start.\n- **Each install now has a stable network id.** iOS masks the hardware address, which had been collapsing every device's coopnet fingerprint to the same value.\n\nFolds in upstream's fix from LeoManrique/sm64coopdx-ios, including the coopnet library changes, which this port has to build from source for visionOS.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
+          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.1.2/sm64coopdx-1.1.2-visionOS.ipa",
+          "size": 11278936,
+          "minOSVersion": "2.0"
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-07-23T18:15:51Z",
+          "localizedDescription": "Sharper, deeper 3D — this release is all about the world-locked stereoscopic 3D mode.\n\n## What's new since 1.0.0\n- **Foveated rendering** — the in-room 3D panel now renders eye-tracked variable-density, so it's as crisp as the flat 2D window and sharpest where you're looking. The softness the 3D panel used to have is gone, at no frame-rate cost.\n- **Deeper stereo depth** — the Stereo Depth slider reaches 1.5× further, for stronger hyper-stereo when you want it.\n- **Adaptive supersampling** — enlarging the 3D panel now automatically renders the game at higher resolution, so large panels stay crisp instead of pixelating.\n- **Reset** moved next to Done in the 3D settings.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
+          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.1.1/sm64coopdx-1.1.1-visionOS.ipa",
+          "size": 11278955,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
+      "name": "Dusklight",
+      "bundleIdentifier": "com.rebelancap.dusklight",
+      "developerName": "rebelancap",
+      "subtitle": "The Legend of Zelda: Twilight Princess for Apple Vision Pro",
+      "localizedDescription": "The Legend of Zelda: Twilight Princess on Apple Vision Pro: the full GameCube game rendered natively on Metal, in a free-floating 2D window and a world-locked stereoscopic 3D mode with foveated rendering, spatial audio anchored to the screen, and live-tunable screen size, distance, and depth. Ships with no game content; you supply your own GameCube Twilight Princess disc image.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/dusklight.png",
+      "tintColor": "#C9A227",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-07-25T06:05:44Z",
+          "localizedDescription": "**Dusklight for Apple Vision Pro** — The Legend of Zelda: Twilight Princess, rendered natively on **Metal** (no emulator, no translation layer), including a world-locked **stereoscopic 3D mode**.\n\nShips with **no game content** — you supply your own **GameCube Twilight Princess disc image** (US `GZ2E01` or European/PAL `GZ2P01`, as `.iso` or `.rvz`). Drop it in via Files at first launch; it's read in place and never leaves your device.\n\n### Install via SideStore source (recommended — auto-updates)\nAdd one URL to [SideStore](https://sidestore.io) and it installs *and updates itself* when new versions ship:\n\n- **Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/dusklight-ios/main/sidestore/apps-visionos.json`\n\nFirst install SideStore onto the headset with my [iloader fork](https://github.com/rebelancap/iloader/releases#release-visionos) (runs on an Apple Silicon Mac, pairs over Wi-Fi — no cable, no Dev Strap), then add the source.\n\n### Or download and sideload manually\n- **`dusklight-1.0.0-visionOS.ipa`** — Apple Vision Pro (visionOS 2+), 2D + 3D in one app\n\n### What's in it\n- The **full Twilight Princess**, rendered natively on Metal (GX → aurora → Dawn/WebGPU → Metal), with GameCube memory-card saves\n- **Runtime disc loading** — the disc image is read in place; no PC tools, no extraction\n- **Game controllers**, and **60 / 90 / 120 Hz** (auto-detects your headset's panel)\n- A **free-resizing 2D window** at high resolution\n- **Stereoscopic 3D mode** — the game on a world-locked panel floating in your room, with **foveated rendering** (as crisp as the flat 2D window, sharpest where you look), **spatial audio anchored to the screen**, and live-tunable **stereo depth**, **screen size / distance / height** (any aspect renders true widescreen FOV, no stretching), **surroundings dimming**, and Digital Crown **recenter**\n- **Dolphin-format HD/4K texture packs** via drag-and-drop in Files\n\nFull instructions in the [README](https://github.com/rebelancap/dusklight-ios#readme).\n\nTHE LEGEND OF ZELDA: TWILIGHT PRINCESS © Nintendo. This project is not affiliated with or endorsed by Nintendo and ships no Nintendo content; you supply your own disc.",
+          "downloadURL": "https://github.com/rebelancap/dusklight-ios/releases/download/v1.0.0/dusklight-1.0.0-visionOS.ipa",
+          "size": 22194107,
+          "minOSVersion": "2.0"
+        }
+      ]
+    },
+    {
       "name": "Apotris",
       "bundleIdentifier": "com.rebelancap.apotris",
       "developerName": "rebelancap",
@@ -499,13 +499,6 @@
         }
       ]
     }
-  ],
-  "featuredApps": [
-    "com.rebelancap.soh",
-    "com.rebelancap.vkquake",
-    "com.rebelancap.dusklight",
-    "com.rebelancap.sm64coopdx",
-    "com.rebelancap.apotris"
   ],
   "news": []
 }
