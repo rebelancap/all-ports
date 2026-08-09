@@ -416,6 +416,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.2.0",
+          "date": "2026-08-09T08:33:43Z",
+          "localizedDescription": "## VR mode\n\nThe game in true stereo around you, in three view modes: a **diorama** on your floor, **third-person** with the world at your shoulder, and **first-person** at life size. Each remembers its own scale and placement.\n\n- Plays with any gamepad. **Tracked VR controllers** (visionOS spatial controllers, e.g. PSVR2 Sense) are optional, and draw **Mario's own hands** where yours are — with grab and punch gestures if you want them.\n- A real **sky dome**, built from the game's own skybox tiles, so the sky surrounds you instead of sitting flat.\n- Free / Turn / Snap stick look, stereo strength, world scale and height, dimming, recenter, and an optional Flip Cam that somersaults with Mario.\n- Menus and the act/star select stay on a flat world-locked screen.\n- 2x MSAA on the eye passes, and anti-clip so leaning into a wall doesn't put you inside it.\n\nTunable from the visionOS settings sheet or in-game Options → VR.\n\n## Fixes\n\n- The 2D window keeps its rounded corners\n- Fixed a Metal texture-lifetime bug that could paint stale textures over the sky\n\n## Credits\n\nVR mode owes its shape to [RaYRoD's Quest port](https://github.com/RaYRoD-TV/sm64coopdx-vr) — the sky dome is a direct port, tuning constants and all. Built on [sm64coopdx](https://github.com/coop-deluxe/sm64coopdx); iOS groundwork by [LeoManrique](https://github.com/LeoManrique/sm64coopdx-ios). You supply your own ROM.",
+          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.2.0/sm64coopdx-1.2.0-visionOS.ipa",
+          "size": 11319818,
+          "minOSVersion": "2.0"
+        },
+        {
           "version": "1.1.2",
           "date": "2026-07-28T00:12:40Z",
           "localizedDescription": "Multiplayer fix — the public lobby list works properly now.\n\n## What's new since 1.1.1\n- **The public lobby list no longer breaks after the first query.** Browsing lobbies would work once and then stop returning results until you relaunched. It now recovers on its own.\n- **Dropped connections are actually detected.** They previously never were, which is what left the lobby list wedged — the game kept waiting on a connection that was already gone.\n- **Lobby queries time out** instead of hanging indefinitely, and **Refresh no longer locks up permanently** when a query fails to start.\n- **Each install now has a stable network id.** iOS masks the hardware address, which had been collapsing every device's coopnet fingerprint to the same value.\n\nFolds in upstream's fix from LeoManrique/sm64coopdx-ios, including the coopnet library changes, which this port has to build from source for visionOS.\n\nBring your own Super Mario 64 (US) ROM. Install with SideStore.",
