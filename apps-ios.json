@@ -525,6 +525,27 @@
           "minOSVersion": "17.0"
         }
       ]
+    },
+    {
+      "name": "GoldenEye 007",
+      "bundleIdentifier": "com.rebelancap.goldeneye",
+      "developerName": "rebelancap",
+      "subtitle": "GoldenEye 007 for iPhone & Vision Pro",
+      "localizedDescription": "The GoldenEye 007 XBLA remaster — Rare's Xbox 360 remake, finished in 2007 and never released — running natively on iPhone and Apple Vision Pro. This is a static recompilation, not an emulator: the original PowerPC game code is translated ahead of time into C++ and compiled for Apple silicon, with the Xbox 360 GPU, audio and kernel layers reimplemented on top of Metal. The remaster's signature instant switch between the 2007 remastered art and the original N64 look works here too. Ships with no game content — you supply your own game files, and we cannot help you obtain them.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/goldeneye.png",
+      "tintColor": "#C8A03C",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-07T17:20:32Z",
+          "localizedDescription": "First release of GoldenEye 007 (the XBLA remaster) for iPhone and Apple Vision Pro.\n\n**Install with SideStore / AltStore** (auto-updates):\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually. **The app ships with no game data** — see the README for the file layout it expects. We cannot help you obtain the game files.\n\n**Highlights**\n- Static recompilation of the 2007 Xbox 360 build; the instant N64 / remastered graphics switch works (RB on a controller).\n- Controller-first, with a customizable touch overlay when no pad is connected.\n- Vision Pro: renders at 1440p by default (60 fps); 2160p available in Settings.\n- Backgrounding the app (Digital Crown / home gesture) pauses the game and resumes where you left off.\n- Settings gear appears on menus and pause, hides during play.\n\nRequires iOS 16+ or visionOS 26+.",
+          "downloadURL": "https://github.com/rebelancap/GoldenEye-Recomp-ios/releases/download/v1.0.0/goldeneye-xbla-1.0.0-iOS.ipa",
+          "size": 12942130,
+          "minOSVersion": "16.0"
+        }
+      ]
     }
   ],
   "news": []
