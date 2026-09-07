@@ -1,0 +1,16 @@
+{
+  "name": "GoldenEye 007",
+  "bundleIdentifier": "com.rebelancap.goldeneye",
+  "repo": "rebelancap/GoldenEye-Recomp-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "GoldenEye 007 for iPhone & Vision Pro",
+  "localizedDescription": "The GoldenEye 007 XBLA remaster — Rare's Xbox 360 remake, finished in 2007 and never released — running natively on iPhone and Apple Vision Pro. This is a static recompilation, not an emulator: the original PowerPC game code is translated ahead of time into C++ and compiled for Apple silicon, with the Xbox 360 GPU, audio and kernel layers reimplemented on top of Metal. The remaster's signature instant switch between the 2007 remastered art and the original N64 look works here too. Ships with no game content — you supply your own game files, and we cannot help you obtain them.",
+  "tintColor": "#C8A03C",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "26.0",
+  "screenshotURLs": []
+}
