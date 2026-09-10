@@ -258,6 +258,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.1.0",
+          "date": "2026-09-10T18:38:52Z",
+          "localizedDescription": "Ocarina of Time in **immersive VR on Apple Vision Pro** — you stand in Hyrule in\nfirst person and swing the sword with your own hand. Tap **VR** in the ornament\nunder the game window (**3D** and **Exit** are right beside it; the game keeps\nrunning across the switch).\n\n**Apple Vision Pro**\n- **Motion combat** — your Sense controllers are your hands, and a real swing\n  swings the blade: slashes, stabs and combos come out of how you actually move\n- **First-person immersion** — Link's body is hidden, the camera is your head,\n  and the world turns with you (smooth turn by default, or snap)\n- **The item wheel** — hold the right grip and the game's own 3D item models fan\n  out around your hand; look at one and let go to equip it\n- **Aim with your hand** — bow, slingshot, hookshot and boomerang follow the\n  controller's own aim ray, with a crosshair you can always see\n- **The Megaton hammer** chops with a wrist flex, and **the Lens of Truth**\n  renders as a single fused circle out in the world\n- Shield crouch, Z-targeting on the left trigger, ladders, and the HUD floating\n  where you can read it\n- **Hand calibration and an in-game VR settings sheet**, with a per-section\n  Reset so a bad tweak costs one tap\n\n**iPhone & iPad**\n- No iPhone-facing changes in this release\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.2.3 (upstream commit 417256b42).\nBring your own ROM; the app extracts it on device.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.1.0/soh-1.1.0-visionOS.ipa",
+          "size": 30197412,
+          "minOSVersion": "2.0"
+        },
+        {
           "version": "1.0.1",
           "date": "2026-08-06T07:19:43Z",
           "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
