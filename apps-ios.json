@@ -554,6 +554,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.2",
+          "date": "2026-09-11T03:11:47Z",
+          "localizedDescription": "Screen update for GoldenEye 007 (the XBLA remaster) on iPhone and Apple Vision Pro.\n\n**Install with SideStore / AltStore** (auto-updates):\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually. **The app ships with no game data** — see the README for the file layout it expects. We cannot help you obtain the game files.\n\n**What's new**\n- The game's own Screen Letterbox and Screen Ratio settings now work, and the app follows them. 21:9 fills the whole iPhone screen; 16:9 + Wide fills it in gameplay; 16:9 + Full shows the frame with side bars. New installs start on 21:9.\n- The app's Screen setting is gone (it fought the in-game one).\n- Vision Pro: the window reshapes to match 21:9 or 16:9, no bars.\n\nRequires iOS 16+ or visionOS 26+.",
+          "downloadURL": "https://github.com/rebelancap/GoldenEye-Recomp-ios/releases/download/v1.0.2/goldeneye-xbla-1.0.2-iOS.ipa",
+          "size": 12949124,
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "1.0.1",
           "date": "2026-09-10T22:10:06Z",
           "localizedDescription": "Touch controls and screen fill update for GoldenEye 007 (the XBLA remaster) on iPhone and Apple Vision Pro.\n\n**Install with SideStore / AltStore** (auto-updates):\n\n| Device | Source URL |\n| --- | --- |\n| iPhone / iPad | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json` |\n| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` |\n\nOr install the IPA below manually. **The app ships with no game data** — see the README for the file layout it expects. We cannot help you obtain the game files.\n\n**What's new**\n- Touch controls (#1): while AIM is held, a second FIRE appears under the left thumb, mirroring the right one, so you can aim with one hand and shoot with the other. It can be placed in Settings → Controls → Customize Touch Layout.\n- New GADGET button (B) above RELOAD and AIM, movable like the rest.\n- Settings → Graphics → **Screen**: *Fill height* (default) shows the whole 16:9 frame with bars at the sides; *Fill width* fills a taller phone screen edge to edge and sets the game's own Screen Letterbox to Wide for you.\n- Other App Audio modes (Lower / Mute Game Audio and the rest) now take effect from launch instead of after a background-and-return.\n- Export Touch Layout removed from Settings.\n\nRequires iOS 16+ or visionOS 26+.",
