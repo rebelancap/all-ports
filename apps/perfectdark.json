@@ -1,0 +1,16 @@
+{
+  "name": "Perfect Dark",
+  "bundleIdentifier": "com.rebelancap.perfectdark",
+  "repo": "rebelancap/perfect-dark-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Perfect Dark for iPhone & Vision Pro",
+  "localizedDescription": "Rare's N64 shooter running natively on iPhone and Apple Vision Pro — the Perfect Dark decompilation through Dab's Mod, rendering on Metal. Dab's Mod adds jump, a combat roll, melee combos, a third-person camera, up to 80 simulants in the Combat Simulator and bodies that stay where they fell, plus XBLA support: drop in your own copy of the 2010 Xbox 360 release and the game draws 4J Studios' high-resolution art instead of the N64 art. On Apple Vision Pro there is a world-locked stereoscopic 3D mode with foveated rendering. Ships with no game content — you supply your own Perfect Dark (USA) Rev 1 ROM, and your own Xbox 360 copy if you want the XBLA art.",
+  "tintColor": "#3A6EA5",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "26.0",
+  "screenshotURLs": []
+}

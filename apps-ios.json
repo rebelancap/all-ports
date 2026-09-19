@@ -586,6 +586,27 @@
           "minOSVersion": "16.0"
         }
       ]
+    },
+    {
+      "name": "Perfect Dark",
+      "bundleIdentifier": "com.rebelancap.perfectdark",
+      "developerName": "rebelancap",
+      "subtitle": "Perfect Dark for iPhone & Vision Pro",
+      "localizedDescription": "Rare's N64 shooter running natively on iPhone and Apple Vision Pro — the Perfect Dark decompilation through Dab's Mod, rendering on Metal. Dab's Mod adds jump, a combat roll, melee combos, a third-person camera, up to 80 simulants in the Combat Simulator and bodies that stay where they fell, plus XBLA support: drop in your own copy of the 2010 Xbox 360 release and the game draws 4J Studios' high-resolution art instead of the N64 art. On Apple Vision Pro there is a world-locked stereoscopic 3D mode with foveated rendering. Ships with no game content — you supply your own Perfect Dark (USA) Rev 1 ROM, and your own Xbox 360 copy if you want the XBLA art.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/perfectdark.png",
+      "tintColor": "#3A6EA5",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-19T02:17:50Z",
+          "localizedDescription": "**Perfect Dark, Dab's Mod, on iPhone and Apple Vision Pro.** The first public\nrelease: the Perfect Dark decompilation through the PC port and Dab's Mod,\nrendering on Metal through ANGLE, with a world-locked stereoscopic 3D mode and\nfoveated rendering on Apple Vision Pro.\n\nThe full campaign on all three difficulties, the Carrington Institute, and the\nCombat Simulator with up to 80 simulants and bodies that stay where they fell.\nDab's Mod adds a jump, a combat roll, melee combos and a third-person camera.\nDrop in your own copy of the 2010 Xbox 360 release and the game draws 4J\nStudios' high-resolution textures, meshes, rooms, font and explosions in place\nof the N64 art — one toggle flips the whole release on and off.\n\nController-first, with a full touch layer (floating stick, drag look, glyph\nbuttons) and a native settings page. Gyro aim, 60 and 120 Hz, texture packs.\n\n### Game data\n\n**This app ships with no game content.** You supply your own **Perfect Dark\n(USA) (Rev 1)** ROM — `pd.ntsc-final.z64`, md5 `e03b088b6ac9e0080440efed07c1e40f`\n— by dropping it into the app's Documents folder in the Files app. PAL, JPN and\nUS 1.0 ROMs are not supported. The XBLA art is optional and likewise yours to\nsupply: drop your own copy of the Xbox 360 package (or the archive containing\nit) into `xbla/`. We cannot help you obtain either.\n\n### Install\n\n**iPhone / iPad:** `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json`\n**Apple Vision Pro:** `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json`\n\nOn Apple Vision Pro, first install SideStore onto the headset with\n[iloader](https://github.com/rebelancap/iloader/releases#release-visionos),\nthen add the source in SideStore.\n\n### Credits\n\n[Dab's Mod](https://github.com/DabDavis/perfect-dark-dabs-mod) by DabDavis, the\n[Perfect Dark PC port](https://github.com/perfect-dark-pc-port/perfect_dark),\nand the [Perfect Dark decompilation](https://github.com/n64decomp/perfect_dark).\nMIT.",
+          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.0/perfectdark-1.0.0-iOS.ipa",
+          "size": 7246190,
+          "minOSVersion": "15.0"
+        }
+      ]
     }
   ],
   "news": []
