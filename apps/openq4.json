@@ -1,0 +1,16 @@
+{
+  "name": "openQ4",
+  "bundleIdentifier": "com.rebelancap.openq4",
+  "repo": "rebelancap/openQ4-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Quake 4 for iPhone & Vision Pro",
+  "localizedDescription": "Quake 4 running natively on iPhone and Apple Vision Pro through openQ4, the open-source replacement for the Quake 4 engine and game code — its Vulkan renderer on Metal via MoltenVK. The full story campaign with saves, openQ4's offline Arena Campaign against bots, touch-usable in-world screens, controllers with rumble, touch sticks and gyro aim, EFX reverb, demos, data-only mods, and multiplayer between openQ4 players. On Apple Vision Pro there is a world-locked stereoscopic 3D mode with foveated rendering. Ships with no game content — you supply your own Quake 4 (q4base, patched to 1.4.2; Steam and GOG already are). The game modules remain under id Software's Quake 4 SDK EULA: free and non-commercial only.",
+  "tintColor": "#B5832A",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "2.5",
+  "screenshotURLs": []
+}
