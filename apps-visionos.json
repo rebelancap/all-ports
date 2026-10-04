@@ -676,6 +676,27 @@
           "minOSVersion": "26.0"
         }
       ]
+    },
+    {
+      "name": "openQ4",
+      "bundleIdentifier": "com.rebelancap.openq4",
+      "developerName": "rebelancap",
+      "subtitle": "Quake 4 for iPhone & Vision Pro",
+      "localizedDescription": "Quake 4 running natively on iPhone and Apple Vision Pro through openQ4, the open-source replacement for the Quake 4 engine and game code — its Vulkan renderer on Metal via MoltenVK. The full story campaign with saves, openQ4's offline Arena Campaign against bots, touch-usable in-world screens, controllers with rumble, touch sticks and gyro aim, EFX reverb, demos, data-only mods, and multiplayer between openQ4 players. On Apple Vision Pro there is a world-locked stereoscopic 3D mode with foveated rendering. Ships with no game content — you supply your own Quake 4 (q4base, patched to 1.4.2; Steam and GOG already are). The game modules remain under id Software's Quake 4 SDK EULA: free and non-commercial only.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/openq4.png",
+      "tintColor": "#B5832A",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-04T06:02:06Z",
+          "localizedDescription": "# openQ4 1.0.0 — Quake 4 for iPhone, iPad and Apple Vision Pro\n\nThe first public release. Quake 4 running natively on iPhone, iPad and Apple\nVision Pro, built on [openQ4](https://github.com/themuffinator/openQ4) v0.13.2 —\nthe open-source replacement for the Quake 4 engine and game binaries — with its\nVulkan renderer running on Metal through MoltenVK.\n\n## What's in it\n\n- **The story campaign** from start to finish, with saves and autosaves.\n- **openQ4's Arena Campaign** — an offline ladder of bot matches across five\n  tiers, with progress that persists. No network needed.\n- **Touch controls** with floating dual sticks and adjustable sensitivity, size\n  and opacity; touch Quake 4's in-world consoles and panels directly.\n- **Game controllers** with a full default layout, and optional **gyro aim** on\n  iPhone and iPad.\n- **Apple Vision Pro**: openQ4 in a resizable 2D window, plus a stereoscopic\n  **3D mode** that puts the game on a floating screen in your room with real\n  depth, rendered for both eyes every frame with eye-tracked foveated rendering.\n- **First-run import** of your own `q4base`: pick the folder and the app checks\n  every official pack against openQ4's table of 1.4.2 checksums before copying\n  it, and tells you if your copy is unpatched or incomplete.\n- **Data-only mods** (`.pk4` packs or mod folders) dropped in with the Files app.\n- **English, French, Italian and Spanish.**\n- **Multiplayer between openQ4 players** — LAN, direct connect and a server\n  browser with user-settable master servers, with bots to fill a match. openQ4\n  cannot join retail Quake 4 servers.\n\n## Install\n\nAdd a SideStore source — openQ4 then updates itself. It is in both; add either\none (Quake ports carries just the Quake family; All ports carries every port):\n\n| Device | Source | Source URL |\n| --- | --- | --- |\n| iPhone / iPad | Quake ports | `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-ios.json` |\n| iPhone / iPad | All ports | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json` |\n| Apple Vision Pro | Quake ports | `https://raw.githubusercontent.com/rebelancap/quake-ports/main/apps-visionos.json` |\n| Apple Vision Pro | All ports | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` |\n\nOn Apple Vision Pro, first install SideStore onto the headset with\n[iloader](https://github.com/rebelancap/iloader/releases#release-visionos), then add the source in SideStore.\n\nOr install `openq4-1.0.0-iOS.ipa` / `openq4-1.0.0-visionOS.ipa` below with SideStore/AltStore yourself.\n\n**No game data is included.** You need your own Quake 4, patched to 1.4.2 (Steam\nand GOG releases already are); the app asks for your `q4base` folder on first launch.\n\n## Licences\n\nThe openQ4 engine and this port are GPLv3. The SP/MP game modules are built\nfrom [openQ4-game](https://github.com/themuffinator/openQ4-game), are derived\nfrom the Quake 4 SDK and remain subject to id Software's Quake 4 SDK EULA —\nnon-commercial use only, and the full version of Quake 4 is required. Like\nupstream openQ4's own releases, these builds are distributed free and with that\nEULA acknowledged; its full text is in the app (`licenses/`) and in the\nrepository. Quake 4 assets remain the property of id Software and ZeniMax Media.\nThis project is not affiliated with id Software, Raven Software, Bethesda or ZeniMax Media.\n\n## Checksums (SHA-256)\n\n```\n4ea06a108ef73121a1ab3f417d1150cdeb8cda70a7acf18b284bbe1ea8f50fcd  openq4-1.0.0-iOS.ipa\n6f43c9dfcd1ffd75b16967088705827463c3e515e1807c2923b615d492203451  openq4-1.0.0-visionOS.ipa\n```",
+          "downloadURL": "https://github.com/rebelancap/openQ4-ios/releases/download/v1.0.0/openq4-1.0.0-visionOS.ipa",
+          "size": 653015432,
+          "minOSVersion": "2.5"
+        }
+      ]
     }
   ],
   "news": []
