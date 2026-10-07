@@ -266,6 +266,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.2.2",
+          "date": "2026-10-07T17:54:06Z",
+          "localizedDescription": "A fix for touch players: the on-screen **R** button works again. Your saves and extracted\ngame data carry over unchanged.\n\n**iPhone & iPad**\n- **Fix:** the touch **R** button now raises your shield (and does everything else R does)\n  with the default controller settings. It used to send a button the default layout\n  doesn't use, so tapping it did nothing unless you rebound R by hand. If you already\n  rebound R to RB as a workaround, that keeps working too; you can also put it back to\n  the default.\n\n**Apple Vision Pro**\n- The window's touch R button gets the same fix. Nothing else changes.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.3.0 (upstream commit ecd889c).\nBring your own ROM; the app extracts it on device.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.2.2/soh-1.2.2-iOS.ipa",
+          "size": 37099571,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.2.1",
           "date": "2026-10-07T09:31:36Z",
           "localizedDescription": "Touch players can now steer the camera with a finger: turn on Free Look and drag on any\nempty part of the screen to look around. Your saves and extracted game data carry over\nunchanged.\n\n**iPhone & iPad**\n- **Touch camera:** turn on Free Look in **Settings > Controls > Camera Controls**, then\n  drag on empty screen space (anywhere that isn't a button or the stick) to turn the\n  camera. Free Look's own sensitivity and invert options apply. A new **Touch Camera\n  Sensitivity** slider in **Settings > iOS** sets how far a drag turns; at 1.00, one\n  screen width turns the camera 180 degrees. The left-handed layout mirrors the drag\n  area too.\n- **Fix:** tapping a touch C-button no longer jerks the camera when Free Look is on.\n  C-buttons still do everything else they did (C-up still looks in first person), and a\n  game controller's right stick still moves the camera as before.\n\n**Apple Vision Pro**\n- No changes in this release. Touch drag-look is for iPhone and iPad only.\n\n**Texture packs**\n- The pause menu's \"C-button to Equip\" prompt with HD packs now uses upstream's own fix\n  instead of ours. We checked it with the Reloaded 4K pack, and it looks the same as before.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.3.0 (upstream commit ecd889c).\nBring your own ROM; the app extracts it on device.",
