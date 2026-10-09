@@ -1,15 +1,27 @@
 # all-ports
 
 Two SideStore/AltStore sources covering every rebelancap game port — one for iPhone &
-iPad, one for Apple Vision Pro. Both are regenerated hourly from the latest GitHub
-release of each port, so an app updates in SideStore as soon as you publish it.
+iPad, one for Apple Vision Pro. Both are regenerated from the latest GitHub release of
+each port the moment it is published (an hourly cron is the safety net), so an app
+updates in SideStore as soon as you publish it.
 
-## Add the sources
+## Add the SideStore source
 
-| Platform | URL |
-| --- | --- |
-| iPhone & iPad | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json` |
-| Apple Vision Pro | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` |
+| Device | Source | Source URL |
+| --- | --- | --- |
+| iPhone / iPad | All ports | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json` |
+| Apple Vision Pro | All ports | `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` |
+
+In [SideStore](https://sidestore.io) / [AltStore](https://altstore.io): *Sources → **+** → paste the URL*.
+
+On **Apple Vision Pro**, first install SideStore onto the headset with
+[iloader](https://github.com/rebelancap/iloader/releases#release-visionos) (SideStore/AltStore can't be
+installed on visionOS the usual way — iloader is what gets SideStore there). Then add the source in
+SideStore exactly as above.
+
+Family sources carrying just one group of these apps also exist:
+[quake-ports](https://github.com/rebelancap/quake-ports) and
+[harbourmasters-ports](https://github.com/rebelancap/harbourmasters-ports).
 
 ## Adding a port
 
