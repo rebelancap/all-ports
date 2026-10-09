@@ -539,6 +539,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.2",
+          "date": "2026-10-09T18:58:41Z",
+          "localizedDescription": "An iOS 27 compatibility and performance update. Your saves and extracted game data carry over unchanged; no re-extraction needed.\n\n**iPhone & iPad**\n- **Built with the iOS 27 SDK:** launches correctly on iOS 27 and stays in landscape, including after returning from the Home screen or pulling down Control Center (no more stretched or sideways picture).\n- **The game no longer slows down under load:** the game clock now keeps real time, so when a frame runs late the game and its music stay at full speed instead of dropping into slow motion.\n- **Lighter touch controls:** the on-screen stick and Z button are drawn as separate layers, so moving the stick no longer redraws the whole overlay every frame.\n- **Drag-to-look:** with the Manual camera (Enhancements > Camera > Default Camera Mode = Manual), swipe on empty screen space to turn the camera. Adjust it with Touch Camera Sensitivity in the iOS settings section. Invert and Camera Speed settings apply as usual.\n- **Always Show Menu Button:** a new option in the iOS settings section that keeps the menu button on screen during gameplay.\n\n**Apple Vision Pro**\n- Rebuilt from the same source. The pacing fix applies to the 2D window; the 3D mode is unchanged from 1.0.1. Verified on the visionOS simulator; this build was not tested in the headset.\n\nThis public build does not include the developer console.\n\nBring your own ROM; the app extracts it on device.",
+          "downloadURL": "https://github.com/rebelancap/Ghostship-ios/releases/download/v1.0.2/ghostship-1.0.2-iOS.ipa",
+          "size": 5993793,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.0.1",
           "date": "2026-08-06T07:19:56Z",
           "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
