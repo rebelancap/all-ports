@@ -592,6 +592,14 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.2.1",
+          "date": "2026-10-12T23:53:08Z",
+          "localizedDescription": "Synced with upstream [sm64coopdx-ios v151.1.0](https://github.com/LeoManrique/sm64coopdx-ios/releases/tag/v151.1.0).\n\n- Bluetooth keyboards work again.\n- A `dynos` folder is now created at launch, so DynOS packs can be dropped in through the Files app.\n- Built on the visionOS 27 SDK.",
+          "downloadURL": "https://github.com/rebelancap/sm64coopdx-ios/releases/download/v1.2.1/sm64coopdx-1.2.1-visionOS.ipa",
+          "size": 11321360,
+          "minOSVersion": "2.0"
+        },
+        {
           "version": "1.2.0",
           "date": "2026-08-09T08:33:43Z",
           "localizedDescription": "## VR mode\n\nThe game in true stereo around you, in three view modes: a **diorama** on your floor, **third-person** with the world at your shoulder, and **first-person** at life size. Each remembers its own scale and placement.\n\n- Plays with any gamepad. **Tracked VR controllers** (visionOS spatial controllers, e.g. PSVR2 Sense) are optional, and draw **Mario's own hands** where yours are — with grab and punch gestures if you want them.\n- A real **sky dome**, built from the game's own skybox tiles, so the sky surrounds you instead of sitting flat.\n- Free / Turn / Snap stick look, stereo strength, world scale and height, dimming, recenter, and an optional Flip Cam that somersaults with Mario.\n- Menus and the act/star select stay on a flat world-locked screen.\n- 2x MSAA on the eye passes, and anti-clip so leaning into a wall doesn't put you inside it.\n\nTunable from the visionOS settings sheet or in-game Options → VR.\n\n## Fixes\n\n- The 2D window keeps its rounded corners\n- Fixed a Metal texture-lifetime bug that could paint stale textures over the sky\n\n## Credits\n\nVR mode owes its shape to [RaYRoD's Quest port](https://github.com/RaYRoD-TV/sm64coopdx-vr) — the sky dome is a direct port, tuning constants and all. Built on [sm64coopdx](https://github.com/coop-deluxe/sm64coopdx); iOS groundwork by [LeoManrique](https://github.com/LeoManrique/sm64coopdx-ios). You supply your own ROM.",
