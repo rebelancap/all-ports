@@ -825,6 +825,29 @@
           "minOSVersion": "2.5"
         }
       ]
+    },
+    {
+      "name": "Vivecraft",
+      "bundleIdentifier": "com.rebelancap.vivecraft-visionos",
+      "developerName": "rebelancap",
+      "subtitle": "Minecraft Java 26.2 in VR, native on Vision Pro",
+      "localizedDescription": "Minecraft Java Edition 26.2 with Vivecraft, running natively on Apple Vision Pro. The client is compiled into the app because visionOS has no JIT. A Microsoft account that owns Minecraft: Java Edition has to sign in once on a device before it will launch; after that, other accounts and Offline play work. VR controllers use Vivecraft's Touch bindings, and hand tracking is the fallback. Not affiliated with Mojang or Microsoft.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/vivecraft-visionos.png",
+      "tintColor": "#3C8527",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/rebelancap/vivecraft-visionos/main/docs/screenshot.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-14T21:41:37Z",
+          "localizedDescription": "First public release: Minecraft: Java Edition 26.2 + Vivecraft VR, running natively on Apple Vision Pro, built on [Klepton](https://github.com/shinyquagsire23/Klepton) by shinyquagsire23.\n\n## Install\n- **SideStore:** add the All ports source `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` and install **Vivecraft**.\n- **Direct:** sideload `vivecraft-visionos-1.0.0.ipa` below.\n\nThe IPA is self-contained (game data included, ~630 MB); no Mac is needed after install.\n\n## You must own Minecraft: Java Edition\nThe first launch on a device requires signing in once with a Microsoft account that owns Minecraft: Java Edition. After that the device stays unlocked, and the Offline profile and other accounts work too. The IPA contains the Minecraft client compiled ahead of time (visionOS has no JIT), which is why this gate exists. Not affiliated with Mojang or Microsoft.\n\n## Controls\nVR controllers (PS VR2 Sense) are recommended; a hand-tracking gesture map is in the README.\n\n## Credits\nKlepton, Vivecraft, QuestCraft (OpenXR fork and bindings), Fabric, Sodium, Lithium and the other bundled mods, ANGLE, LWJGL, GraalVM. Licenses ship inside the app; see THIRD-PARTY.md.\n\nsha256 `0e04432473b9c3e74a7480b9acb1b8068ea66c6217bf43c6150f2d5753c560c4`",
+          "downloadURL": "https://github.com/rebelancap/vivecraft-visionos/releases/download/1.0.0/vivecraft-visionos-1.0.0.ipa",
+          "size": 627419775,
+          "minOSVersion": "26.0"
+        }
+      ]
     }
   ],
   "news": []
