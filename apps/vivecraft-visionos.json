@@ -1,0 +1,17 @@
+{
+  "name": "Vivecraft",
+  "bundleIdentifier": "com.rebelancap.vivecraft-visionos",
+  "repo": "rebelancap/vivecraft-visionos",
+  "platforms": [
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Minecraft Java 26.2 in VR, native on Vision Pro",
+  "localizedDescription": "Minecraft Java Edition 26.2 with Vivecraft, running natively on Apple Vision Pro. The client is compiled into the app because visionOS has no JIT. A Microsoft account that owns Minecraft: Java Edition has to sign in once on a device before it will launch; after that, other accounts and Offline play work. VR controllers use Vivecraft's Touch bindings, and hand tracking is the fallback. Not affiliated with Mojang or Microsoft.",
+  "tintColor": "#3C8527",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "26.0",
+  "screenshotURLs": [
+    "https://raw.githubusercontent.com/rebelancap/vivecraft-visionos/main/docs/screenshot.png"
+  ]
+}
