@@ -846,14 +846,6 @@
           "downloadURL": "https://github.com/rebelancap/vivecraft-visionos/releases/download/1.0.1/vivecraft-visionos-1.0.1.ipa",
           "size": 627408183,
           "minOSVersion": "26.0"
-        },
-        {
-          "version": "1.0.0",
-          "date": "2026-10-14T22:49:54Z",
-          "localizedDescription": "First public release: Minecraft: Java Edition 26.2 + Vivecraft VR, running natively on Apple Vision Pro, built on [Klepton](https://github.com/shinyquagsire23/Klepton) by shinyquagsire23.\n\n## Install\n- **SideStore:** add the All ports source `https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json` and install **Vivecraft**.\n- **Direct:** sideload `vivecraft-visionos-1.0.0.ipa` below.\n\nThe IPA is self-contained (game data included, ~630 MB); no Mac is needed after install.\n\n## You must own Minecraft: Java Edition\nThe first launch on a device requires signing in once with a Microsoft account that owns Minecraft: Java Edition. After that the device stays unlocked, and the Offline profile and other accounts work too. The IPA contains the Minecraft client compiled ahead of time (visionOS has no JIT), which is why this gate exists. Not affiliated with Mojang or Microsoft.\n\n## Controls\nVR controllers (PS VR2 Sense) are recommended; a hand-tracking gesture map is in the README.\n\n## Credits\nKlepton, Vivecraft, QuestCraft (OpenXR fork and bindings), Fabric, Sodium, Lithium and the other bundled mods, ANGLE, LWJGL, GraalVM. Licenses ship inside the app; see THIRD-PARTY.md.\n\nsha256 `9a5e1c1d9e60c9bf6684f9e383f799ba2ae6febe7ae1c935ad2b5be698a8c28b`",
-          "downloadURL": "https://github.com/rebelancap/vivecraft-visionos/releases/download/1.0.0/vivecraft-visionos-1.0.0.ipa",
-          "size": 627406919,
-          "minOSVersion": "26.0"
         }
       ]
     }
