@@ -1,0 +1,15 @@
+{
+  "name": "RetroArch",
+  "bundleIdentifier": "com.rebelancap.retroarch",
+  "repo": "rebelancap/RetroArch-visionos",
+  "platforms": [
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "Thirteen emulator cores and a 3D NES diorama mode",
+  "localizedDescription": "A native visionOS build of RetroArch, the libretro emulator frontend, with thirteen cores built in (NES, SNES, N64, Game Boy / Color / Advance, DS, Virtual Boy, Genesis / Master System / Game Gear / Sega CD, PlayStation, PC Engine, Atari 2600, DOS and arcade) and a 3dSen-style 3D mode that turns NES games into dioramas floating in your room, rendered with real stereo depth. Every core runs without JIT. A Bluetooth gamepad drives the emulator; PlayStation VR2 Sense controllers can aim the NES Zapper. This app ships no games, no BIOS files and no 3D profiles: you bring your own through the Files app. Not affiliated with libretro, Geod (3dSen), Nintendo, Sega, Sony or Atari.",
+  "tintColor": "#4C5C96",
+  "iosMinOS": "16.0",
+  "visionosMinOS": "26.0",
+  "screenshotURLs": []
+}

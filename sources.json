@@ -18,7 +18,8 @@
     "goldeneye",
     "perfectdark",
     "openq4",
-    "vivecraft-visionos"
+    "vivecraft-visionos",
+    "retroarch-visionos"
   ],
   "ios": {
     "name": "rebelancap Ports \u2014 iPhone & iPad",
