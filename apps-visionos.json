@@ -904,6 +904,27 @@
           "minOSVersion": "26.0"
         }
       ]
+    },
+    {
+      "name": "RetroArch",
+      "bundleIdentifier": "com.rebelancap.retroarch",
+      "developerName": "rebelancap",
+      "subtitle": "Thirteen emulator cores and a 3D NES diorama mode",
+      "localizedDescription": "A native visionOS build of RetroArch, the libretro emulator frontend, with thirteen cores built in (NES, SNES, N64, Game Boy / Color / Advance, DS, Virtual Boy, Genesis / Master System / Game Gear / Sega CD, PlayStation, PC Engine, Atari 2600, DOS and arcade) and a 3dSen-style 3D mode that turns NES games into dioramas floating in your room, rendered with real stereo depth. Every core runs without JIT. A Bluetooth gamepad drives the emulator; PlayStation VR2 Sense controllers can aim the NES Zapper. This app ships no games, no BIOS files and no 3D profiles: you bring your own through the Files app. Not affiliated with libretro, Geod (3dSen), Nintendo, Sega, Sony or Atari.",
+      "iconURL": "https://raw.githubusercontent.com/rebelancap/all-ports/main/assets/retroarch-visionos.png",
+      "tintColor": "#4C5C96",
+      "category": "games",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.23.0",
+          "date": "2026-11-03T23:03:44Z",
+          "localizedDescription": "First public release of RetroArch for Apple Vision Pro: a native visionOS build of the libretro frontend, with every core compiled in and signed with the app (no downloads, no JIT needed).\n\n**Systems:** NES / Famicom (Mesen), SNES (Snes9x, bsnes-hd beta with HD Mode 7), Nintendo 64 (Mupen64Plus-Next, OpenGL via ANGLE), Game Boy / Color / Advance (mGBA), Nintendo DS (melonDS), Virtual Boy (Beetle VB), Genesis / Mega Drive, Master System, Game Gear, Sega CD (Genesis Plus GX), PlayStation (PCSX-ReARMed), PC Engine / TurboGrafx-16 (Beetle PCE Fast), Atari 2600 (Stella 2014), DOS (DOSBox Pure), Arcade (MAME 2003-Plus).\n\n**3D mode (NES):** load an NES game and tap the **3D** ornament; with a 3dSen profile for that game it becomes a diorama in your room with real stereo depth. Right stick orbits, triggers zoom. PlayStation VR2 Sense controllers can aim the Zapper.\n\n**No profiles are bundled.** Bring your own `.3dn` files (community profiles, ones you make with 3dSen Maker, or the official ones extracted from your own 3dSen copy with `scripts/3dsen-extract-profiles.py`) into `RetroArch/system/3dsen/`.\n\n**No games, no BIOS.** Add your own through the Files app (*On My Apple Vision Pro → RetroArch*).\n\nRequires visionOS 26. Install `RetroArch-1.23.0-visionOS.ipa` with SideStore, or add the All ports source (see the README).",
+          "downloadURL": "https://github.com/rebelancap/RetroArch-visionos/releases/download/v1.23.0/RetroArch-1.23.0-visionOS.ipa",
+          "size": 88877086,
+          "minOSVersion": "26.0"
+        }
+      ]
     }
   ],
   "news": []
