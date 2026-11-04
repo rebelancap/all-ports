@@ -1,0 +1,16 @@
+{
+  "name": "Project Midas",
+  "bundleIdentifier": "com.rebelancap.projectmidas",
+  "repo": "rebelancap/Project-Midas-ios",
+  "platforms": [
+    "ios",
+    "visionos"
+  ],
+  "developerName": "rebelancap",
+  "subtitle": "GoldenEye 007 (Project Midas) for iPhone & Vision Pro",
+  "localizedDescription": "Rare's N64 shooter running natively on iPhone and Apple Vision Pro — murkantor's Project Midas, the PC port built from the GoldenEye 007 decompilation, compiled for Apple silicon and rendering on Metal. Touch controls or any game controller, local split-screen with one controller per player, up to 120 fps on ProMotion screens, and Project Midas's profiles, weapon sets and options. Import your own copy of the unreleased Xbox 360 remaster and the game draws its art instead of the N64 art, or use the community GoldenEye 007 HD texture pack. On Apple Vision Pro there is a world-locked stereoscopic 3D mode. Ships with no game content — you supply your own GoldenEye 007 (USA) ROM, and your own XBLA copy if you want the remaster's art.",
+  "tintColor": "#2E7D32",
+  "iosMinOS": "15.0",
+  "visionosMinOS": "26.0",
+  "screenshotURLs": []
+}
